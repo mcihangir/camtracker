@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP ERJ-3GEYJ222V
-D RESISTOR, 0603 2.2K Ohms +/- 5% 0.1W
-K
-F 
-$ENDCMP
-#
-#End Doc Library

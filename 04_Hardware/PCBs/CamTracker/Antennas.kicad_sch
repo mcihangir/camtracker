@@ -7474,12 +7474,6 @@
 		(uuid "70a3bb7a-7b78-480f-a2b9-b817f943c30c")
 	)
 	(junction
-		(at 176.53 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02f9f08e-766e-4f74-9b4f-a5f5b990e9fc")
-	)
-	(junction
 		(at 207.01 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7504,7 +7498,7 @@
 		(uuid "2752b0fc-9f7b-466f-8d28-a0bf7bc5be4a")
 	)
 	(junction
-		(at 147.32 58.42)
+		(at 127 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "316068aa-2cbe-4cba-a528-e6c246fde72e")
@@ -7516,34 +7510,10 @@
 		(uuid "366ffdab-db26-4b25-b58a-bd2974e52925")
 	)
 	(junction
-		(at 158.75 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ba462f6-6724-4e33-b979-644ced507111")
-	)
-	(junction
-		(at 137.16 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d6e5a3d-f052-4c59-9ed2-f8fed405ed56")
-	)
-	(junction
 		(at 156.21 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58d28dfc-305d-4c49-8506-87684313d29e")
-	)
-	(junction
-		(at 198.12 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d237eff-31c5-4ebc-aa17-cb04cb845310")
-	)
-	(junction
-		(at 147.32 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "829247bb-2a3a-4850-aa83-67fa90f25c12")
 	)
 	(junction
 		(at 228.6 99.06)
@@ -7570,19 +7540,13 @@
 		(uuid "c2454c51-47aa-46f4-948d-37df3dc46856")
 	)
 	(junction
-		(at 176.53 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c27d5620-94f0-4e0e-b7c0-cd1f671d34d4")
-	)
-	(junction
 		(at 233.68 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c674f75d-4ef5-4102-a116-e79b134dd082")
 	)
 	(junction
-		(at 198.12 133.35)
+		(at 185.42 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c777a391-610e-4166-9d52-8bc9e0509054")
@@ -7592,18 +7556,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8830394-2c44-46e0-b0f9-4da10d18f649")
-	)
-	(junction
-		(at 119.38 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dda3ecbf-8697-4483-9bdd-de74ac92d7ac")
-	)
-	(junction
-		(at 137.16 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2d6552f-8a0f-43d0-9c50-b0ef0fa1de31")
 	)
 	(junction
 		(at 189.23 106.68)
@@ -7651,16 +7603,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 128.27) (xy 198.12 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1130eb01-d9ef-48ff-a97d-bb83acbced0e")
-	)
-	(wire
-		(pts
 			(xy 163.83 104.14) (xy 163.83 106.68)
 		)
 		(stroke
@@ -7678,16 +7620,6 @@
 			(type default)
 		)
 		(uuid "136cac91-df7a-49ac-9b89-508ab7d4bb33")
-	)
-	(wire
-		(pts
-			(xy 176.53 128.27) (xy 173.99 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "138c1a3c-36a6-4d8e-86c3-1f58745d2414")
 	)
 	(wire
 		(pts
@@ -7721,16 +7653,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 53.34) (xy 119.38 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28ce269d-6413-4cc4-8557-4a14a59f81be")
-	)
-	(wire
-		(pts
 			(xy 219.71 87.63) (xy 224.79 87.63)
 		)
 		(stroke
@@ -7751,7 +7673,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 133.35) (xy 198.12 140.97)
+			(xy 185.42 133.35) (xy 185.42 140.97)
 		)
 		(stroke
 			(width 0)
@@ -7771,7 +7693,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 58.42) (xy 147.32 66.04)
+			(xy 127 58.42) (xy 127 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7791,27 +7713,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 53.34) (xy 137.16 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a5fc007-d248-40ac-b431-4a5210208732")
-	)
-	(wire
-		(pts
-			(xy 137.16 53.34) (xy 147.32 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f47bd70-d883-46b6-bdf6-3fa926e31fc8")
-	)
-	(wire
-		(pts
-			(xy 147.32 55.88) (xy 147.32 58.42)
+			(xy 127 55.88) (xy 127 58.42)
 		)
 		(stroke
 			(width 0)
@@ -7838,16 +7740,6 @@
 			(type default)
 		)
 		(uuid "5edb2315-0256-4dac-8cd9-47928c3d7cc2")
-	)
-	(wire
-		(pts
-			(xy 137.16 66.04) (xy 147.32 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "600eeaa9-d22d-4a77-8771-e79c141ca3fd")
 	)
 	(wire
 		(pts
@@ -7931,26 +7823,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 140.97) (xy 176.53 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87605a54-f111-4155-8117-ed3b40974116")
-	)
-	(wire
-		(pts
-			(xy 176.53 140.97) (xy 198.12 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e397058-b177-41dd-aa63-165e22baf5a1")
-	)
-	(wire
-		(pts
 			(xy 233.68 55.88) (xy 233.68 58.42)
 		)
 		(stroke
@@ -7961,7 +7833,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 53.34) (xy 121.92 53.34)
+			(xy 104.14 53.34) (xy 127 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7991,7 +7863,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 128.27) (xy 158.75 128.27)
+			(xy 158.75 128.27) (xy 185.42 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8051,7 +7923,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 130.81) (xy 198.12 133.35)
+			(xy 185.42 130.81) (xy 185.42 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8109,26 +7981,6 @@
 		)
 		(uuid "e2b041ab-4d5f-4e06-93a2-a3a73e32ff5e")
 	)
-	(wire
-		(pts
-			(xy 119.38 66.04) (xy 137.16 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec6a22c4-29ab-4a0c-ba2a-d5dddb8f14bf")
-	)
-	(wire
-		(pts
-			(xy 158.75 128.27) (xy 161.29 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff81734c-3367-445c-94ce-de53c4aa878f")
-	)
 	(label "ANT_GNSS_C0"
 		(at 204.47 93.98 0)
 		(effects
@@ -8179,16 +8031,6 @@
 		)
 		(uuid "7c9a4057-13a1-4850-9055-b5a342e695f8")
 	)
-	(label "ANT_MAIN_C"
-		(at 137.16 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91767db2-8fca-4631-818f-5ac63f8b8024")
-	)
 	(label "ANT_DRX"
 		(at 72.39 90.17 180)
 		(effects
@@ -8220,7 +8062,7 @@
 		(uuid "b2c089ab-5530-487d-a904-1ed71c969c3b")
 	)
 	(label "ANT_WiFi"
-		(at 143.51 128.27 0)
+		(at 158.75 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8238,16 +8080,6 @@
 			(justify left bottom)
 		)
 		(uuid "d016070f-09df-4ae8-b4a5-a89db9a9a444")
-	)
-	(label "ANT_WiFi_C0"
-		(at 185.42 128.27 0)
-		(effects
-			(font
-				(size 0.7 0.7)
-			)
-			(justify left bottom)
-		)
-		(uuid "da615458-cc9c-4846-9f05-68e81728f9d4")
 	)
 	(label "ANT_DRX_C"
 		(at 223.52 53.34 0)
@@ -8499,93 +8331,6 @@
 			(project ""
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
 					(reference "L8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000MCLib:RC0402JR-070RL")
-		(at 167.64 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f0c4d31-c407-4120-acd8-5f9b093b7570")
-		(property "Reference" "R88"
-			(at 169.418 125.222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 164.846 125.222 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000MCLib:RC0402N_YAG"
-			(at 161.29 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 0R 1/16W CH0402"
-			(at 161.29 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 167.64 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402JR-070RL"
-			(at 167.64 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d67aabd-1a25-4286-bc3e-87dc11be4ac9")
-		)
-		(pin "2"
-			(uuid "dc06d6b7-8a4b-4a31-980b-1917ca4fe26d")
-		)
-		(instances
-			(project "CamTracker"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
-					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -8866,7 +8611,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 140.97 0)
+		(at 185.42 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8874,7 +8619,7 @@
 		(dnp no)
 		(uuid "5487adf0-21bf-43ce-915e-1666f6221dda")
 		(property "Reference" "#PWR0139"
-			(at 198.12 147.32 0)
+			(at 185.42 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8883,7 +8628,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 144.78 0)
+			(at 185.42 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8891,7 +8636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 140.97 0)
+			(at 185.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8900,7 +8645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 140.97 0)
+			(at 185.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8909,7 +8654,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 140.97 0)
+			(at 185.42 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10014,97 +9759,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000MCLib:GRM1555C1H330JA01D")
-		(at 137.16 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "82a31af0-e852-49e8-bce7-c4b1c263095f")
-		(property "Reference" "C72"
-			(at 138.684 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33pF 50V"
-			(at 141.224 54.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000MCLib:CAPC1005X55N"
-			(at 40.97 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at -59.03 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 33pF, 50V, X5R, 0402"
-			(at 137.16 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at -559.03 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM1555C1H330JA01D"
-			(at -659.03 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21168296-0be6-4556-92dd-2d9418ee0174")
-		)
-		(pin "2"
-			(uuid "26fbb368-6d27-4101-b47f-7e2b572f7333")
-		)
-		(instances
-			(project ""
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
-					(reference "C72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VDD")
 		(at 132.08 87.63 90)
 		(unit 1)
@@ -10291,99 +9945,8 @@
 		)
 	)
 	(symbol
-		(lib_id "000MCLib:GRM1555C1H330JA01D")
-		(at 176.53 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "8d632bf8-3e20-4f6f-8111-6b5a47a4ee56")
-		(property "Reference" "C76"
-			(at 178.054 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33pF 50V"
-			(at 180.594 129.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000MCLib:CAPC1005X55N"
-			(at 80.34 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at -19.66 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 33pF, 50V, X5R, 0402"
-			(at 176.53 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at -519.66 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM1555C1H330JA01D"
-			(at -619.66 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b626a03-308e-421b-b55f-44665908c0b2")
-		)
-		(pin "2"
-			(uuid "fc8a7265-3bc8-41ac-abc3-2876f5c36372")
-		)
-		(instances
-			(project "CamTracker"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
-					(reference "C76")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "000MCLib:636101112001")
-		(at 207.01 130.81 0)
+		(at 194.31 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10392,7 +9955,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f0774b4-c008-4d65-b47b-890ff601044e")
 		(property "Reference" "J16"
-			(at 212.09 129.5399 0)
+			(at 199.39 129.5399 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10401,7 +9964,7 @@
 			)
 		)
 		(property "Value" "636101112001"
-			(at 212.09 132.0799 0)
+			(at 199.39 132.0799 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -10410,7 +9973,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:COAX2_636101112001_WRE"
-			(at 205.994 125.73 0)
+			(at 193.294 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10419,7 +9982,7 @@
 			)
 		)
 		(property "Datasheet" "636101112001"
-			(at 207.01 125.73 0)
+			(at 194.31 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10428,7 +9991,7 @@
 			)
 		)
 		(property "Description" "Connector IPEX MHF1 RF"
-			(at 198.12 128.27 0)
+			(at 185.42 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10437,7 +10000,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 207.01 130.81 0)
+			(at 194.31 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10446,7 +10009,7 @@
 			)
 		)
 		(property "Part Number" "636101112001"
-			(at 207.01 130.81 0)
+			(at 194.31 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,97 +10279,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000MCLib:GRM1555C1H330JA01D")
-		(at 158.75 134.62 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "a9c3ee91-7ccf-461f-9874-bd0d857551be")
-		(property "Reference" "C74"
-			(at 160.274 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33pF 50V"
-			(at 162.814 129.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000MCLib:CAPC1005X55N"
-			(at 62.56 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at -37.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 33pF, 50V, X5R, 0402"
-			(at 158.75 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at -537.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM1555C1H330JA01D"
-			(at -637.44 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8e42faad-a1a8-4106-872e-35378c43fe28")
-		)
-		(pin "2"
-			(uuid "4f6ae0e7-770f-4af0-bcf7-8658e63aae65")
-		)
-		(instances
-			(project "CamTracker"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
-					(reference "C74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "000MCLib:RC0402JR-070RL")
 		(at 214.63 53.34 0)
 		(unit 1)
@@ -10985,99 +10457,8 @@
 		)
 	)
 	(symbol
-		(lib_id "000MCLib:GRM1555C1H330JA01D")
-		(at 119.38 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "b7486fba-6dad-4a6e-a1f5-eaea5074c3df")
-		(property "Reference" "C71"
-			(at 120.904 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33pF 50V"
-			(at 123.444 54.864 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000MCLib:CAPC1005X55N"
-			(at 23.19 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at -76.81 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor 33pF, 50V, X5R, 0402"
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata Electronics"
-			(at -576.81 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "GRM1555C1H330JA01D"
-			(at -676.81 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1e4f5503-6391-471a-918e-f8a8c93fa6ba")
-		)
-		(pin "2"
-			(uuid "779e30b3-c5f8-40f6-9085-32aded925772")
-		)
-		(instances
-			(project "CamTracker"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
-					(reference "C71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "000MCLib:636101112001")
-		(at 156.21 55.88 0)
+		(at 135.89 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11086,7 +10467,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3f55b14-c36c-417a-81b5-1c572896257b")
 		(property "Reference" "J15"
-			(at 161.29 54.6099 0)
+			(at 140.97 54.6099 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11095,7 +10476,7 @@
 			)
 		)
 		(property "Value" "636101112001"
-			(at 161.29 57.1499 0)
+			(at 140.97 57.1499 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -11104,7 +10485,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:COAX2_636101112001_WRE"
-			(at 155.194 50.8 0)
+			(at 134.874 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,7 +10494,7 @@
 			)
 		)
 		(property "Datasheet" "636101112001"
-			(at 156.21 50.8 0)
+			(at 135.89 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +10503,7 @@
 			)
 		)
 		(property "Description" "Connector IPEX MHF1 RF"
-			(at 147.32 53.34 0)
+			(at 127 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11131,7 +10512,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 156.21 55.88 0)
+			(at 135.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,7 +10521,7 @@
 			)
 		)
 		(property "Part Number" "636101112001"
-			(at 156.21 55.88 0)
+			(at 135.89 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11257,7 +10638,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 66.04 0)
+		(at 127 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11265,7 +10646,7 @@
 		(dnp no)
 		(uuid "d433e6c6-c80a-4ae6-b4f0-d2d2cf1bc166")
 		(property "Reference" "#PWR0138"
-			(at 147.32 72.39 0)
+			(at 127 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11274,7 +10655,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 69.85 0)
+			(at 127 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11282,7 +10663,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 66.04 0)
+			(at 127 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11291,7 +10672,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 66.04 0)
+			(at 127 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11300,7 +10681,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 66.04 0)
+			(at 127 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11315,93 +10696,6 @@
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
 					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000MCLib:RC0402JR-070RL")
-		(at 128.27 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fdb97169-2eb8-4290-a9eb-ae6b03a43c52")
-		(property "Reference" "R86"
-			(at 130.048 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 125.476 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000MCLib:RC0402N_YAG"
-			(at 121.92 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 0R 1/16W CH0402"
-			(at 121.92 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 128.27 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402JR-070RL"
-			(at 128.27 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "651e5889-89fd-4de3-bcef-f8568b5c020f")
-		)
-		(pin "2"
-			(uuid "f97b2b39-91d1-4b7c-b6b6-f4ce80b488da")
-		)
-		(instances
-			(project ""
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
-					(reference "R86")
 					(unit 1)
 				)
 			)

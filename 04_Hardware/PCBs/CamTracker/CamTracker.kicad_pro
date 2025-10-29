@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|66807000|103550000|d2a1a2a4-cb15-417d-b821-462120348df8|bef62458-85de-4d13-a911-19091d5a5092",
-          ""
-        ],
-        [
-          "clearance|66807000|112190000|49eea603-3e81-47bb-bb7b-2083460d9bc2|a6f4dd51-5913-403a-a381-547fa9f916a1",
-          ""
-        ],
-        [
-          "solder_mask_bridge|66807000|103550000|d2a1a2a4-cb15-417d-b821-462120348df8|bef62458-85de-4d13-a911-19091d5a5092",
-          ""
-        ],
-        [
-          "solder_mask_bridge|66807000|112190000|49eea603-3e81-47bb-bb7b-2083460d9bc2|a6f4dd51-5913-403a-a381-547fa9f916a1",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -507,24 +490,7 @@
         "wire_width": 6
       },
       {
-        "bus_width": 12,
-        "clearance": 0.01,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.2,
-        "microvia_drill": 0.1,
-        "name": "BGA",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
-        "via_diameter": 0.3,
-        "via_drill": 0.1,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
+        "bus_width": 14,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -533,41 +499,32 @@
         "microvia_drill": 0.15,
         "name": "PWR_DC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0,
+        "track_width": 3.0,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 12
+        "wire_width": 14
       },
       {
-        "bus_width": 12,
+        "bus_width": 14,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "PWR_IO",
+        "microvia_diameter": 0.35,
+        "microvia_drill": 0.15,
+        "name": "PWR_SD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 12
+        "wire_width": 14
       },
       {
-        "bus_width": 12,
-        "line_style": 0,
-        "name": "PWR_SD",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "wire_width": 12
-      },
-      {
-        "bus_width": 12,
+        "bus_width": 14,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -576,49 +533,15 @@
         "microvia_drill": 0.1,
         "name": "PWR_VBAT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 3.0,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 12
+        "wire_width": 14
       },
       {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "PWR_VBAT_BB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 12
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "PWR_VBAT_RF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 12
-      },
-      {
-        "bus_width": 12,
+        "bus_width": 14,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -627,15 +550,15 @@
         "microvia_drill": 0.1,
         "name": "PWR_VDD",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.7,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 12
+        "wire_width": 14
       },
       {
-        "bus_width": 12,
+        "bus_width": 14,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -644,15 +567,15 @@
         "microvia_drill": 0.15,
         "name": "PWR_VPH",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.4,
         "via_drill": 0.2,
-        "wire_width": 12
+        "wire_width": 14
       },
       {
-        "bus_width": 12,
+        "bus_width": 14,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -661,12 +584,12 @@
         "microvia_drill": 0.1,
         "name": "PWR_VUSB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 3.0,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 12
+        "wire_width": 14
       },
       {
         "bus_width": 14,
@@ -678,7 +601,7 @@
         "microvia_drill": 0.15,
         "name": "SIG_DP_100R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 13,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1697,
         "via_diameter": 0.35,
@@ -686,18 +609,38 @@
         "wire_width": 14
       },
       {
+        "bus_width": 14,
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.1361,
+        "diff_pair_width": 0.3132,
+        "line_style": 0,
         "microvia_diameter": 0.35,
         "microvia_drill": 0.15,
-        "name": "SIG_NFC_20R",
+        "name": "SIG_PCIe_80R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 11,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.35,
+        "track_width": 0.3132,
         "via_diameter": 0.35,
-        "via_drill": 0.15
+        "via_drill": 0.15,
+        "wire_width": 14
+      },
+      {
+        "bus_width": 14,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1971,
+        "line_style": 0,
+        "microvia_diameter": 0.35,
+        "microvia_drill": 0.15,
+        "name": "SIG_PCIe_CLK_95R",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1971,
+        "via_diameter": 0.35,
+        "via_drill": 0.15,
+        "wire_width": 14
       },
       {
         "bus_width": 14,
@@ -709,9 +652,9 @@
         "microvia_drill": 0.15,
         "name": "SIG_RF_50R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 10,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1433,
+        "track_width": 0.1427,
         "via_diameter": 0.35,
         "via_drill": 0.15,
         "wire_width": 14
@@ -726,7 +669,7 @@
         "microvia_drill": 0.15,
         "name": "SIG_USB_90R",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 12,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2296,
         "via_diameter": 0.35,
@@ -757,17 +700,26 @@
       "/Power/BAT_P": [
         "PWR_VBAT"
       ],
+      "3V8": [
+        "PWR_VBAT"
+      ],
       "5VDC": [
         "PWR_VBAT"
       ],
       "CAM0_3V3": [
-        "PWR_DC"
+        "PWR_VDD"
       ],
       "CAM1_3V3": [
-        "PWR_DC"
+        "PWR_VDD"
       ],
       "NFC_VBAT": [
         "PWR_DC"
+      ],
+      "NVMe_1V05": [
+        "PWR_VDD"
+      ],
+      "NVMe_3V3": [
+        "PWR_VDD"
       ],
       "Net-(AE1-Pad1)": [
         "SIG_NFC_50R"
@@ -813,6 +765,9 @@
       ],
       "Net-(C141-Pad2)": [
         "SIG_NFC_50R"
+      ],
+      "Net-(C36-+)": [
+        "PWR_DC"
       ],
       "Net-(C45-Pad2)": [
         "SIG_NFC_20R"
@@ -868,6 +823,18 @@
       "Net-(J25-SIGNAL)": [
         "SIG_RF_50R"
       ],
+      "Net-(J28-PETn0{slash}SATA-A-)": [
+        "SIG_PCIe_80R"
+      ],
+      "Net-(J28-PETn1)": [
+        "SIG_PCIe_80R"
+      ],
+      "Net-(J28-PETp0{slash}SATA-A+)": [
+        "SIG_PCIe_80R"
+      ],
+      "Net-(J28-PETp1)": [
+        "SIG_PCIe_80R"
+      ],
       "Net-(J7-GND-Pad2)": [
         "SIG_RF_50R"
       ],
@@ -886,6 +853,12 @@
       "Net-(J8-SIGNAL)": [
         "SIG_NFC_50R"
       ],
+      "Net-(U2-SW)": [
+        "PWR_DC"
+      ],
+      "TypeC_VBUS": [
+        "PWR_VUSB"
+      ],
       "VBAT": [
         "PWR_VBAT"
       ],
@@ -898,6 +871,9 @@
       "VDD": [
         "PWR_DC",
         "PWR_VBAT"
+      ],
+      "VIN": [
+        "PWR_DC"
       ],
       "VREG_1V1": [
         "PWR_DC"
@@ -924,40 +900,76 @@
         "pattern": "/Antennas/ANT_*"
       },
       {
-        "netclass": "SIG_USB_90R",
-        "pattern": "/USB_UARTs/USB_*"
-      },
-      {
-        "netclass": "SIG_DP_100R",
-        "pattern": "/Display/D*"
-      },
-      {
-        "netclass": "SIG_DP_100R",
-        "pattern": "/Display/CLK_*"
-      },
-      {
-        "netclass": "SIG_DP_100R",
-        "pattern": "/Camera/CSI0_*"
-      },
-      {
-        "netclass": "SIG_DP_100R",
-        "pattern": "/Camera/CLK_*"
-      },
-      {
-        "netclass": "SIG_DP_100R",
-        "pattern": "/Camera/MD*"
-      },
-      {
         "netclass": "PWR_VPH",
         "pattern": "VPH_PWR"
       },
       {
-        "netclass": "PWR_VBAT",
-        "pattern": "*PWR_U2*"
+        "netclass": "PWR_VUSB",
+        "pattern": "VUSB_BUS"
       },
       {
         "netclass": "PWR_SD",
         "pattern": "/SIM_SD/SD_VDD"
+      },
+      {
+        "netclass": "SIG_DP_100R",
+        "pattern": "/Cameras/CAM0_MD*"
+      },
+      {
+        "netclass": "SIG_DP_100R",
+        "pattern": "/Cameras/CAM1_MD*"
+      },
+      {
+        "netclass": "SIG_USB_90R",
+        "pattern": "/USB_UARTs/SC206E_USB_D*"
+      },
+      {
+        "netclass": "SIG_USB_90R",
+        "pattern": "/USB_UARTs/TypeC_USB_D*"
+      },
+      {
+        "netclass": "SIG_USB_90R",
+        "pattern": "NVMe_USB_D*"
+      },
+      {
+        "netclass": "SIG_USB_90R",
+        "pattern": "SC206E_USB_SS*"
+      },
+      {
+        "netclass": "SIG_USB_90R",
+        "pattern": "/NVMe/UT*"
+      },
+      {
+        "netclass": "PWR_VUSB",
+        "pattern": "NMVe_VBUS"
+      },
+      {
+        "netclass": "SIG_DP_100R",
+        "pattern": "/Cameras/CSI*"
+      },
+      {
+        "netclass": "SIG_DP_100R",
+        "pattern": "/Cameras/CAM0_CLK_*"
+      },
+      {
+        "netclass": "SIG_DP_100R",
+        "pattern": "/Cameras/CAM1_CLK_*"
+      },
+      {
+        "netclass": "PWR_VDD",
+        "pattern": "/Cameras/CAM0_3V3_*"
+      },
+      {
+        "netclass": "PWR_VDD",
+        "pattern": "/Cameras/CAM1_3V3_*"
+      },
+      {
+        "netclass": "SIG_PCIe_80R",
+        "pattern": "/NVMe/PCIe_*"
+      },
+      {
+        "netclass": "SIG_PCIe_CLK_95R",
+        "pattern": "/NVMe/REFCLK*"
       }
     ]
   },
@@ -1156,12 +1168,12 @@
       "USB_UARTs"
     ],
     [
-      "50c8ebdc-55b9-4b13-889f-8a059ec3eb59",
-      "NVMe"
-    ],
-    [
       "b1e534e0-0f7b-45a3-a276-524cb0179f18",
       "Interfaces"
+    ],
+    [
+      "f7c4e2f7-a829-4634-a3f0-d2f434039073",
+      "Display"
     ],
     [
       "9ce3d427-75cb-4ba5-ba34-cfd0f074c312",
@@ -1176,16 +1188,16 @@
       "Antennas"
     ],
     [
+      "1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d",
+      "Audio"
+    ],
+    [
       "ee4e2257-2314-4680-890f-0b74cd6f0d79",
       "MCU"
     ],
     [
-      "f7c4e2f7-a829-4634-a3f0-d2f434039073",
-      "Display"
-    ],
-    [
-      "1ec53349-8bf2-45b6-9aa4-0ef061fc8a4d",
-      "Audio"
+      "50c8ebdc-55b9-4b13-889f-8a059ec3eb59",
+      "NVMe"
     ]
   ],
   "text_variables": {}

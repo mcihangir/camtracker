@@ -9307,6 +9307,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 152.4) (xy 195.58 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0607a0a4-dce5-4618-ac5b-1b9b6d322e40")
+	)
+	(wire
+		(pts
 			(xy 195.58 162.56) (xy 194.31 162.56)
 		)
 		(stroke
@@ -9387,6 +9397,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 161.29) (xy 195.58 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd967dd-6a70-4358-bfe2-27999c570556")
+	)
+	(wire
+		(pts
 			(xy 195.58 171.45) (xy 195.58 172.72)
 		)
 		(stroke
@@ -9444,16 +9464,6 @@
 			(type default)
 		)
 		(uuid "2249bd71-a65d-4b74-9e86-9ee41a8d117f")
-	)
-	(wire
-		(pts
-			(xy 195.58 151.13) (xy 195.58 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26505313-412d-4681-b74f-3d757ab5e95e")
 	)
 	(wire
 		(pts
@@ -9624,6 +9634,16 @@
 			(type default)
 		)
 		(uuid "4806611e-7e97-4ec6-9761-1bae216519aa")
+	)
+	(wire
+		(pts
+			(xy 195.58 58.42) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5715bf-5548-49a3-9894-5b09ae27c4b1")
 	)
 	(wire
 		(pts
@@ -9817,16 +9837,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 149.86) (xy 195.58 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73ceb523-35fb-4138-be3d-bb5d000f9971")
-	)
-	(wire
-		(pts
 			(xy 201.93 214.63) (xy 213.36 214.63)
 		)
 		(stroke
@@ -10017,6 +10027,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 149.86) (xy 195.58 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93e7e6f0-5feb-4c12-ab9c-e3584980d019")
+	)
+	(wire
+		(pts
 			(xy 270.51 72.39) (xy 274.32 72.39)
 		)
 		(stroke
@@ -10074,16 +10094,6 @@
 			(type default)
 		)
 		(uuid "a8102f16-12cb-4a88-aaf1-28b1b6ad8a45")
-	)
-	(wire
-		(pts
-			(xy 195.58 161.29) (xy 195.58 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9d1af1d-e49b-4121-abe5-5ea2aad973a0")
 	)
 	(wire
 		(pts
@@ -10187,16 +10197,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 60.96) (xy 195.58 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c16782a5-8256-4ce6-8a5b-70faf9359234")
-	)
-	(wire
-		(pts
 			(xy 81.28 189.23) (xy 100.33 189.23)
 		)
 		(stroke
@@ -10204,16 +10204,6 @@
 			(type default)
 		)
 		(uuid "c47d698c-a6d9-4db5-8312-348c63019375")
-	)
-	(wire
-		(pts
-			(xy 195.58 58.42) (xy 195.58 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8c72557-b1a6-4b6c-8dc7-e469d4ec1f2f")
 	)
 	(wire
 		(pts
@@ -10334,6 +10324,16 @@
 			(type default)
 		)
 		(uuid "daea7eeb-98f7-477a-a514-a6fe7c8e5336")
+	)
+	(wire
+		(pts
+			(xy 195.58 60.96) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db3b8dfc-06b1-4f41-a9c2-cd313bf0c6cf")
 	)
 	(wire
 		(pts
@@ -13982,8 +13982,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:LCFE121002A900TG")
-		(at 195.58 146.05 0)
-		(mirror x)
+		(at 195.58 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13991,7 +13990,7 @@
 		(dnp no)
 		(uuid "77d05745-c9a7-476b-a6ed-e46195e3a0bb")
 		(property "Reference" "FL4"
-			(at 199.644 140.97 0)
+			(at 199.644 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14000,7 +13999,7 @@
 			)
 		)
 		(property "Value" "LCFE121002A900TG"
-			(at 185.674 149.352 0)
+			(at 185.674 141.478 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14009,7 +14008,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:LCFE121002A900TG"
-			(at 222.25 68.91 0)
+			(at 222.25 221.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14019,7 +14018,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/emc_components/littelfuse_emi_filter_lcfe_datasheet.pdf.pdf"
-			(at 222.25 -31.09 0)
+			(at 222.25 321.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14029,7 +14028,7 @@
 			)
 		)
 		(property "Description" "Common Mode Chokes / Filters 90ohms 25% 100A 2 Lines 1210"
-			(at 195.58 144.78 0)
+			(at 195.58 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14038,7 +14037,7 @@
 			)
 		)
 		(property "Manufacturer" "LITTELFUSE"
-			(at 222.25 -531.09 0)
+			(at 222.25 821.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14048,7 +14047,7 @@
 			)
 		)
 		(property "Part Number" "LCFE121002A900TG"
-			(at 222.25 -631.09 0)
+			(at 222.25 921.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14190,8 +14189,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:LCFE121002A900TG")
-		(at 195.58 157.48 0)
-		(mirror x)
+		(at 195.58 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14199,7 +14197,7 @@
 		(dnp no)
 		(uuid "795ea47c-e70e-4525-9fcf-a343b3a6cbb6")
 		(property "Reference" "FL5"
-			(at 199.136 152.146 0)
+			(at 199.136 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14208,7 +14206,7 @@
 			)
 		)
 		(property "Value" "LCFE121002A900TG"
-			(at 186.436 160.528 0)
+			(at 186.436 153.162 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -14217,7 +14215,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:LCFE121002A900TG"
-			(at 222.25 80.34 0)
+			(at 222.25 233.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14227,7 +14225,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/emc_components/littelfuse_emi_filter_lcfe_datasheet.pdf.pdf"
-			(at 222.25 -19.66 0)
+			(at 222.25 333.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14237,7 +14235,7 @@
 			)
 		)
 		(property "Description" "Common Mode Chokes / Filters 90ohms 25% 100A 2 Lines 1210"
-			(at 195.58 156.21 0)
+			(at 195.58 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14246,7 +14244,7 @@
 			)
 		)
 		(property "Manufacturer" "LITTELFUSE"
-			(at 222.25 -519.66 0)
+			(at 222.25 833.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14256,7 +14254,7 @@
 			)
 		)
 		(property "Part Number" "LCFE121002A900TG"
-			(at 222.25 -619.66 0)
+			(at 222.25 933.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15311,8 +15309,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:LCFE121002A900TG")
-		(at 195.58 168.91 0)
-		(mirror x)
+		(at 195.58 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15320,7 +15317,7 @@
 		(dnp no)
 		(uuid "cae4cc41-9de2-40bf-bd79-73ba3a1b456d")
 		(property "Reference" "FL6"
-			(at 197.612 163.322 0)
+			(at 197.612 173.228 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15329,7 +15326,7 @@
 			)
 		)
 		(property "Value" "LCFE121002A900TG"
-			(at 185.928 172.212 0)
+			(at 185.928 164.338 0)
 			(effects
 				(font
 					(size 0.508 0.508)
@@ -15338,7 +15335,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:LCFE121002A900TG"
-			(at 222.25 91.77 0)
+			(at 222.25 244.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15348,7 +15345,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/emc_components/littelfuse_emi_filter_lcfe_datasheet.pdf.pdf"
-			(at 222.25 -8.23 0)
+			(at 222.25 344.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15358,7 +15355,7 @@
 			)
 		)
 		(property "Description" "Common Mode Chokes / Filters 90ohms 25% 100A 2 Lines 1210"
-			(at 195.58 167.64 0)
+			(at 195.58 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15367,7 +15364,7 @@
 			)
 		)
 		(property "Manufacturer" "LITTELFUSE"
-			(at 222.25 -508.23 0)
+			(at 222.25 844.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15377,7 +15374,7 @@
 			)
 		)
 		(property "Part Number" "LCFE121002A900TG"
-			(at 222.25 -608.23 0)
+			(at 222.25 944.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)

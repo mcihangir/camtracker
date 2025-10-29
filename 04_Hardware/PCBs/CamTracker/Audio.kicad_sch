@@ -7909,8 +7909,52 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 80.01 30.48)
+		(end 187.96 77.47)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7cf60039-09f3-4d30-ac46-d87e3f3fed14)
+	)
+	(rectangle
+		(start 80.01 81.28)
+		(end 281.94 128.27)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9d6af946-1e72-4c59-ad0c-7d4866bc431d)
+	)
+	(text "Mic"
+		(exclude_from_sim no)
+		(at 84.836 33.274 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "01bab4ef-3599-4feb-8af7-98529a43fc7e")
+	)
+	(text "Speaker"
+		(exclude_from_sim no)
+		(at 88.9 84.582 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "487206a1-71a1-4151-ad9a-18d4da58982e")
+	)
 	(junction
-		(at 123.19 69.85)
+		(at 115.57 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08757200-6576-4131-9772-268c1b13a100")
@@ -7922,7 +7966,7 @@
 		(uuid "11cb0d3a-4c4c-4031-9994-b9f6ad4cd53f")
 	)
 	(junction
-		(at 165.1 63.5)
+		(at 157.48 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12e48485-0692-4093-8d68-1bc29e6d6799")
@@ -7946,13 +7990,13 @@
 		(uuid "2564d08c-e1f4-49ef-a8dd-7a2fa5f5a4e9")
 	)
 	(junction
-		(at 123.19 66.04)
+		(at 115.57 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cbda0dd-d70c-4c66-a5fd-ceb868c0f66f")
 	)
 	(junction
-		(at 123.19 63.5)
+		(at 115.57 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35ad3d18-5c82-47ee-8eae-31436fef307a")
@@ -7976,7 +8020,7 @@
 		(uuid "624bc3ce-690e-4dfe-b6bf-aa7a34d996b8")
 	)
 	(junction
-		(at 105.41 62.23)
+		(at 97.79 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92208274-6964-49c6-bd9e-e653be6e671c")
@@ -8157,7 +8201,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 102.87) (xy 74.93 102.87)
+			(xy 60.96 102.87) (xy 82.55 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8177,7 +8221,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 69.85) (xy 123.19 66.04)
+			(xy 115.57 58.42) (xy 115.57 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8197,7 +8241,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 69.85) (xy 123.19 69.85)
+			(xy 153.67 58.42) (xy 115.57 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8207,7 +8251,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 66.04) (xy 161.29 69.85)
+			(xy 153.67 54.61) (xy 153.67 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8227,7 +8271,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 63.5) (xy 161.29 63.5)
+			(xy 157.48 52.07) (xy 153.67 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8237,7 +8281,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 63.5) (xy 128.27 63.5)
+			(xy 115.57 52.07) (xy 120.65 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8327,7 +8371,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 66.04) (xy 123.19 66.04)
+			(xy 111.76 54.61) (xy 115.57 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8367,7 +8411,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 49.53) (xy 123.19 50.8)
+			(xy 115.57 38.1) (xy 115.57 39.37)
 		)
 		(stroke
 			(width 0)
@@ -8377,7 +8421,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 62.23) (xy 105.41 62.23)
+			(xy 86.36 50.8) (xy 97.79 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8397,7 +8441,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 63.5) (xy 165.1 63.5)
+			(xy 158.75 52.07) (xy 157.48 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8427,7 +8471,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 66.04) (xy 106.68 66.04)
+			(xy 86.36 54.61) (xy 99.06 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8447,7 +8491,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 102.87) (xy 102.87 102.87)
+			(xy 95.25 102.87) (xy 102.87 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8497,7 +8541,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 66.04) (xy 128.27 66.04)
+			(xy 115.57 54.61) (xy 120.65 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8507,7 +8551,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 99.06) (xy 102.87 99.06)
+			(xy 95.25 99.06) (xy 102.87 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8527,7 +8571,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 63.5) (xy 193.04 63.5)
+			(xy 173.99 52.07) (xy 185.42 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8577,7 +8621,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 62.23) (xy 106.68 62.23)
+			(xy 97.79 50.8) (xy 99.06 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8587,7 +8631,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 119.38 62.23)
+			(xy 111.76 52.07) (xy 111.76 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8597,7 +8641,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 123.19 63.5)
+			(xy 111.76 52.07) (xy 115.57 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8667,7 +8711,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 99.06) (xy 74.93 99.06)
+			(xy 60.96 99.06) (xy 82.55 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8686,7 +8730,7 @@
 		(uuid "ffed0bae-9498-46b6-ac32-94f5a9430b7e")
 	)
 	(label "MIC_BIAS1"
-		(at 193.04 63.5 180)
+		(at 185.42 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8706,7 +8750,7 @@
 		(uuid "29e97db3-2aae-409c-8a95-5b482b6335ae")
 	)
 	(label "MIC1_P"
-		(at 93.98 62.23 0)
+		(at 86.36 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8726,7 +8770,7 @@
 		(uuid "9cef84cb-a0d5-418d-a376-b869d3294677")
 	)
 	(label "MIC1_M"
-		(at 93.98 66.04 0)
+		(at 86.36 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8858,7 +8902,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:GRM155R60J106ME15D")
-		(at 81.28 99.06 0)
+		(at 88.9 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8866,7 +8910,7 @@
 		(dnp no)
 		(uuid "0e7db226-d9b3-4be9-a280-949e935c2727")
 		(property "Reference" "C98"
-			(at 77.47 96.266 0)
+			(at 85.09 96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8874,7 +8918,7 @@
 			)
 		)
 		(property "Value" "10uF 6.3V"
-			(at 88.392 96.52 0)
+			(at 96.012 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8882,7 +8926,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
-			(at 90.17 195.25 0)
+			(at 97.79 195.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8892,7 +8936,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at 90.17 295.25 0)
+			(at 97.79 295.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8902,7 +8946,7 @@
 			)
 		)
 		(property "Description" "Capacitor 10uF, 6.3V, X5R, 0402"
-			(at 81.28 99.06 0)
+			(at 88.9 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8911,7 +8955,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 90.17 795.25 0)
+			(at 97.79 795.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8921,7 +8965,7 @@
 			)
 		)
 		(property "Part Number" "GRM155R60J106ME15D"
-			(at 90.17 895.25 0)
+			(at 97.79 895.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +9350,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 49.53 180)
+		(at 115.57 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9314,7 +9358,7 @@
 		(dnp no)
 		(uuid "29c784f2-5df8-48f9-9173-78b69e04fe66")
 		(property "Reference" "#PWR0170"
-			(at 123.19 43.18 0)
+			(at 115.57 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,7 +9367,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 45.72 0)
+			(at 115.57 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9331,7 +9375,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 49.53 0)
+			(at 115.57 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9340,7 +9384,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 49.53 0)
+			(at 115.57 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9349,7 +9393,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 49.53 0)
+			(at 115.57 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9543,7 +9587,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:GRM155R71A104KA01D")
-		(at 165.1 69.85 270)
+		(at 157.48 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9551,7 +9595,7 @@
 		(dnp no)
 		(uuid "33487135-cf69-4846-ad14-6ebdb5735e4e")
 		(property "Reference" "C104"
-			(at 166.37 64.77 0)
+			(at 158.75 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9560,7 +9604,7 @@
 			)
 		)
 		(property "Value" "100nF 10V"
-			(at 169.672 64.516 0)
+			(at 162.052 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9569,7 +9613,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
-			(at 68.91 78.74 0)
+			(at 61.29 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9579,7 +9623,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at -31.09 78.74 0)
+			(at -38.71 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,7 +9633,7 @@
 			)
 		)
 		(property "Description" "Capacitor 100nF, 10V, X7R, 0402"
-			(at 165.1 69.85 0)
+			(at 157.48 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9598,7 +9642,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at -531.09 78.74 0)
+			(at -538.71 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9652,7 @@
 			)
 		)
 		(property "Part Number" "GRM155R71A104KA01D"
-			(at -631.09 78.74 0)
+			(at -638.71 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9721,7 +9765,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:74269242111")
-		(at 173.99 63.5 0)
+		(at 166.37 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9730,7 +9774,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f6c0752-a813-4b01-abe7-d9e16b61b327")
 		(property "Reference" "FB1"
-			(at 173.99 57.15 0)
+			(at 166.37 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9738,7 +9782,7 @@
 			)
 		)
 		(property "Value" "110Ohm 1200mA"
-			(at 173.99 59.69 0)
+			(at 166.37 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9746,7 +9790,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:BEADC1005X55N"
-			(at 190.5 158.42 0)
+			(at 182.88 146.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9756,7 +9800,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/74269242111.pdf"
-			(at 190.5 258.42 0)
+			(at 182.88 246.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9766,7 +9810,7 @@
 			)
 		)
 		(property "Description" "Ferrite Bead 110Ohm WE-TMSB DCR=0.09Ohms 1200mA"
-			(at 173.99 63.5 0)
+			(at 166.37 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,7 +9819,7 @@
 			)
 		)
 		(property "Manufacturer" "Wurth Elektronik"
-			(at 190.5 758.42 0)
+			(at 182.88 746.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9785,7 +9829,7 @@
 			)
 		)
 		(property "Part Number" "74269242111"
-			(at 190.5 858.42 0)
+			(at 182.88 846.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9811,7 +9855,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:GRM155R71A104KA01D")
-		(at 113.03 62.23 0)
+		(at 105.41 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9819,7 +9863,7 @@
 		(dnp no)
 		(uuid "69cfef92-3411-45ea-a690-4d842d4b130c")
 		(property "Reference" "C101"
-			(at 111.252 58.928 0)
+			(at 103.632 47.498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9828,7 +9872,7 @@
 			)
 		)
 		(property "Value" "100nF 10V"
-			(at 108.204 56.388 0)
+			(at 100.584 44.958 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9837,7 +9881,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
-			(at 121.92 158.42 0)
+			(at 114.3 146.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9847,7 +9891,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at 121.92 258.42 0)
+			(at 114.3 246.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,7 +9901,7 @@
 			)
 		)
 		(property "Description" "Capacitor 100nF, 10V, X7R, 0402"
-			(at 113.03 62.23 0)
+			(at 105.41 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9866,7 +9910,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 121.92 758.42 0)
+			(at 114.3 746.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9876,7 +9920,7 @@
 			)
 		)
 		(property "Part Number" "GRM155R71A104KA01D"
-			(at 121.92 858.42 0)
+			(at 114.3 846.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9993,7 +10037,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:GRM1555C1H100JA01D")
-		(at 123.19 57.15 90)
+		(at 115.57 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10001,7 +10045,7 @@
 		(dnp no)
 		(uuid "6beffdd2-dcd9-4513-a43a-68e621f1f469")
 		(property "Reference" "C103"
-			(at 124.714 52.07 0)
+			(at 117.094 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10010,7 +10054,7 @@
 			)
 		)
 		(property "Value" "10pF 50V"
-			(at 127 51.308 0)
+			(at 119.38 39.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10019,7 +10063,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
-			(at 219.38 48.26 0)
+			(at 211.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,7 +10073,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at 319.38 48.26 0)
+			(at 311.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10039,7 +10083,7 @@
 			)
 		)
 		(property "Description" "Capacitor 10pF, 50V, X5R, 0402"
-			(at 123.19 57.15 0)
+			(at 115.57 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10048,7 +10092,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 819.38 48.26 0)
+			(at 811.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10058,7 +10102,7 @@
 			)
 		)
 		(property "Part Number" "GRM1555C1H100JA01D"
-			(at 919.38 48.26 0)
+			(at 911.76 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +10128,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 76.2 0)
+		(at 157.48 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10092,7 +10136,7 @@
 		(dnp no)
 		(uuid "7ae5114f-cd41-40dd-a092-f53343b05e20")
 		(property "Reference" "#PWR0174"
-			(at 165.1 82.55 0)
+			(at 157.48 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10101,7 +10145,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 80.01 0)
+			(at 157.48 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10109,7 +10153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 76.2 0)
+			(at 157.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10118,7 +10162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 76.2 0)
+			(at 157.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,7 +10171,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 76.2 0)
+			(at 157.48 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10240,7 +10284,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 49.53 180)
+		(at 97.79 38.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10248,7 +10292,7 @@
 		(dnp no)
 		(uuid "88344e00-8136-4770-b6f7-c6596fa90fb3")
 		(property "Reference" "#PWR0169"
-			(at 105.41 43.18 0)
+			(at 97.79 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10257,7 +10301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 45.72 0)
+			(at 97.79 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10265,7 +10309,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 49.53 0)
+			(at 97.79 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10274,7 +10318,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 49.53 0)
+			(at 97.79 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10327,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 49.53 0)
+			(at 97.79 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +10349,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:GRM155R71A104KA01D")
-		(at 113.03 66.04 0)
+		(at 105.41 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10313,7 +10357,7 @@
 		(dnp no)
 		(uuid "8a022821-d838-4fc2-8e5b-24ba460900fa")
 		(property "Reference" "C102"
-			(at 110.998 69.596 0)
+			(at 103.378 58.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10322,7 +10366,7 @@
 			)
 		)
 		(property "Value" "100nF 10V"
-			(at 108.458 70.358 0)
+			(at 100.838 58.928 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,7 +10375,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
-			(at 121.92 162.23 0)
+			(at 114.3 150.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,7 +10385,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at 121.92 262.23 0)
+			(at 114.3 250.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10351,7 +10395,7 @@
 			)
 		)
 		(property "Description" "Capacitor 100nF, 10V, X7R, 0402"
-			(at 113.03 66.04 0)
+			(at 105.41 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10360,7 +10404,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 121.92 762.23 0)
+			(at 114.3 750.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10370,7 +10414,7 @@
 			)
 		)
 		(property "Part Number" "GRM155R71A104KA01D"
-			(at 121.92 862.23 0)
+			(at 114.3 850.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10396,7 +10440,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:RC0402JR-070RL")
-		(at 123.19 76.2 90)
+		(at 115.57 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10404,7 +10448,7 @@
 		(dnp no)
 		(uuid "8a9694ed-019e-4dcf-8d45-cdb915e6650d")
 		(property "Reference" "R102"
-			(at 120.142 74.168 0)
+			(at 112.522 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10412,7 +10456,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 120.142 78.74 0)
+			(at 112.522 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10420,7 +10464,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:RC0402N_YAG"
-			(at 123.19 82.55 0)
+			(at 115.57 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10430,7 +10474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 76.2 0)
+			(at 115.57 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10440,7 +10484,7 @@
 			)
 		)
 		(property "Description" "Resistor 0R 1/16W CH0402"
-			(at 123.19 82.55 0)
+			(at 115.57 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10449,7 +10493,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 123.19 76.2 0)
+			(at 115.57 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10458,7 +10502,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-070RL"
-			(at 123.19 76.2 0)
+			(at 115.57 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10574,7 +10618,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 82.55 0)
+		(at 115.57 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10582,7 +10626,7 @@
 		(dnp no)
 		(uuid "a67393a0-8ea5-40d2-95c3-7a1b5227b981")
 		(property "Reference" "#PWR0171"
-			(at 123.19 88.9 0)
+			(at 115.57 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10591,7 +10635,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 86.36 0)
+			(at 115.57 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10599,7 +10643,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 82.55 0)
+			(at 115.57 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10608,7 +10652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 82.55 0)
+			(at 115.57 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,7 +10661,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 82.55 0)
+			(at 115.57 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10704,7 +10748,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:GRM1555C1H330JA01D")
-		(at 105.41 55.88 90)
+		(at 97.79 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10712,7 +10756,7 @@
 		(dnp no)
 		(uuid "ad34f290-3924-4391-a936-666be613b0b8")
 		(property "Reference" "C100"
-			(at 106.68 49.784 0)
+			(at 99.06 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10721,7 +10765,7 @@
 			)
 		)
 		(property "Value" "33pF 50V"
-			(at 102.108 51.562 0)
+			(at 94.488 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10730,7 +10774,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
-			(at 201.6 46.99 0)
+			(at 193.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10740,7 +10784,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at 301.6 46.99 0)
+			(at 293.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10750,7 +10794,7 @@
 			)
 		)
 		(property "Description" "Capacitor 33pF, 50V, X5R, 0402"
-			(at 105.41 55.88 0)
+			(at 97.79 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10759,7 +10803,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 801.6 46.99 0)
+			(at 793.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,7 +10813,7 @@
 			)
 		)
 		(property "Part Number" "GRM1555C1H330JA01D"
-			(at 901.6 46.99 0)
+			(at 893.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10951,7 +10995,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:CMM-3729AT-42316-TR")
-		(at 128.27 63.5 0)
+		(at 120.65 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10960,7 +11004,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca1b55ba-0c4e-44fc-b94c-07047b5db8bb")
 		(property "Reference" "MK1"
-			(at 144.78 55.88 0)
+			(at 137.16 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10968,7 +11012,7 @@
 			)
 		)
 		(property "Value" "CMM-3729AT-42316-TR"
-			(at 144.78 58.42 0)
+			(at 137.16 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10976,7 +11020,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:CMM3729AT42316TR"
-			(at 157.48 158.42 0)
+			(at 149.86 146.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10986,7 +11030,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.sameskydevices.com/product/resource/cmm-3729at-42316-tr.pdf"
-			(at 157.48 258.42 0)
+			(at 149.86 246.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,7 +11040,7 @@
 			)
 		)
 		(property "Description" "MEMS Microphone, 3.76 x 2.24 mm, Analog, Top Port, Surface Mount, 2.0 Vdc, -42 ??3 dB,"
-			(at 128.27 63.5 0)
+			(at 120.65 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11005,7 +11049,7 @@
 			)
 		)
 		(property "Manufacturer" "Same Sky"
-			(at 157.48 758.42 0)
+			(at 149.86 746.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11015,7 +11059,7 @@
 			)
 		)
 		(property "Part_Number" "CMM-3729AT-42316-TR"
-			(at 157.48 858.42 0)
+			(at 149.86 846.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11025,7 +11069,7 @@
 			)
 		)
 		(property "Part Number" "CMM-3729AT-42316-TR"
-			(at 157.48 858.42 0)
+			(at 149.86 846.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11148,7 +11192,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:GRM155R60J106ME15D")
-		(at 81.28 102.87 0)
+		(at 88.9 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11156,7 +11200,7 @@
 		(dnp no)
 		(uuid "e66aece0-1b3f-408b-85f3-a56fbfa71f2a")
 		(property "Reference" "C99"
-			(at 77.47 100.076 0)
+			(at 85.09 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11164,7 +11208,7 @@
 			)
 		)
 		(property "Value" "10uF 6.3V"
-			(at 88.392 100.33 0)
+			(at 96.012 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11172,7 +11216,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:CAPC1005X55N"
-			(at 90.17 199.06 0)
+			(at 97.79 199.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11182,7 +11226,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
-			(at 90.17 299.06 0)
+			(at 97.79 299.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11192,7 +11236,7 @@
 			)
 		)
 		(property "Description" "Capacitor 10uF, 6.3V, X5R, 0402"
-			(at 81.28 102.87 0)
+			(at 88.9 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +11245,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata Electronics"
-			(at 90.17 799.06 0)
+			(at 97.79 799.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11211,7 +11255,7 @@
 			)
 		)
 		(property "Part Number" "GRM155R60J106ME15D"
-			(at 90.17 899.06 0)
+			(at 97.79 899.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

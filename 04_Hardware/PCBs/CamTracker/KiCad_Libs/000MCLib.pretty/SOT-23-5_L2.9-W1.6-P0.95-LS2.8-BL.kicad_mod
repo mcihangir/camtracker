@@ -316,7 +316,7 @@
 		(uuid "8a33e27d-c7eb-4faf-9859-39b7a48d0d43")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL.step"
+	(model "${KIPRJMOD}/KiCad_Libs/Components/SGM804/SOT23-5.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -324,7 +324,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -0 -0 90)
 		)
 	)
 )

@@ -5,10 +5,10 @@
 	(layer "F.Cu")
 	(descr "ETQ-P4M_KVC")
 	(tags "Inductor")
-	(property "Reference" "L**"
-		(at -0.25 -3.9 0)
+	(property "Reference" "L1"
+		(at -0.25 -3.9 180)
 		(layer "F.SilkS")
-		(uuid "1e8151a4-17da-41ad-8c38-11e4da9069a1")
+		(uuid "0461dc9d-4d37-47af-9e0c-d8ab7a4399c4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "ETQ-P4M_KVC"
-		(at 0 0 0)
+	(property "Value" "ETQ-P4M6R8KVC 6.8uH 6.9A"
+		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "d2e98a07-db8c-4c21-8037-438ac51f7415")
+		(uuid "1c77a791-a926-478e-9cb9-140dab495b53")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -28,11 +28,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
-		(at 0 0 0)
+	(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AGL0000/AGL0000C63.pdf"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "93667ca1-2580-46dc-91b3-ebb7d4551efc")
+		(uuid "209c1892-0835-426e-b384-19e34a27254c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,14 +40,40 @@
 			)
 		)
 	)
-	(property "Description" ""
-		(at 0 0 0)
+	(property "Description" "Inductor 6.8uH 6.9A"
+		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d2297d31-9b7c-4727-94c3-da924ace0321")
+		(uuid "8f079dc0-28fd-459a-93fe-0f251e848e85")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Panasonic"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f726f5cf-9676-4eba-82f7-4f1b49d6df62")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "ETQ-P4M6R8KVC"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71a0f458-45a9-4ec6-aa3d-38d291f5f176")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -61,7 +87,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0acd9f19-9c62-4ed8-a2ca-b346d39bc55e")
+		(uuid "da0b2cae-5baa-45f1-82c1-e689463f5cc5")
 	)
 	(fp_line
 		(start 5 5)
@@ -71,7 +97,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "aae21aee-0f60-416b-b2e9-c52859e9891d")
+		(uuid "cefe3dc6-5c73-4747-86fb-2c4698da59bd")
 	)
 	(fp_circle
 		(center -7.163 0)
@@ -82,47 +108,47 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "f074d131-3760-493a-a06e-c2001b16b236")
+		(uuid "57e29d65-a0ce-48db-815f-caf23db7dc60")
 	)
 	(fp_line
-		(start -6.08 -5.21)
-		(end 6.04 -5.21)
+		(start -6.33 -5.21)
+		(end 6.18 -5.21)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e0c3e0bc-c855-4f11-bea7-8be5f859048c")
+		(uuid "8f9c6c89-b5b7-4628-a99a-6908fcc4e594")
 	)
 	(fp_line
-		(start -6.07 5.24)
-		(end -6.07 -5.19)
+		(start -6.33 5.24)
+		(end -6.33 -5.21)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1c6a17f2-e4cb-41e6-9a33-c22fe7b7ed2f")
+		(uuid "b76816c8-aed1-4e7b-a27e-320daf1f0a3c")
 	)
 	(fp_line
-		(start 6.04 -5.21)
-		(end 6.04 5.24)
+		(start 6.18 -5.21)
+		(end 6.18 5.25)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "1d984869-899e-4b28-be73-99108e991206")
+		(uuid "4ffad2fa-8ed4-46ee-b100-595e7b96a68f")
 	)
 	(fp_line
-		(start 6.06 5.24)
-		(end -6.07 5.24)
+		(start 6.18 5.24)
+		(end -6.33 5.24)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3993e0ec-e2d4-4844-ab52-a4a847338b1e")
+		(uuid "3569dcb4-19af-481d-bc55-272d05a0e174")
 	)
 	(fp_line
 		(start -5 -5)
@@ -132,7 +158,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "495c6aee-94db-4fb1-bb33-4ab8142f5e1d")
+		(uuid "67fd225a-efc3-41ed-8a55-7fb01b9aa474")
 	)
 	(fp_line
 		(start -5 5)
@@ -142,7 +168,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8ecf8b1e-9144-4137-93ea-4f2393f6d33f")
+		(uuid "8a0cc23d-7c28-4443-88dd-da83ae109b4e")
 	)
 	(fp_line
 		(start 5 -5)
@@ -152,7 +178,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "75787795-2b2b-461d-a15f-9b3013d5012c")
+		(uuid "c9bdfeee-46b2-4d18-a6ad-337d25e926e0")
 	)
 	(fp_line
 		(start 5 5)
@@ -162,12 +188,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "34d8557f-a6c8-4aca-84b4-d5719869b31c")
+		(uuid "9cdbc76e-0f33-440a-925a-4a0b7d134bd9")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "2870094d-80ec-407d-8336-e846e2de0535")
+		(uuid "2d9abc30-425a-4d6c-96d8-01f66d29c5d5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -179,13 +205,13 @@
 		(at -4.313 0 90)
 		(size 3.251 3.439)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "aa0057e9-8913-4030-b883-2792f8a33ee7")
+		(uuid "d24ec8e3-7753-403b-806d-5b1a69e8352f")
 	)
 	(pad "2" smd rect
 		(at 4.313 0 90)
 		(size 3.251 3.439)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "18f5ffa6-12be-4fc8-a078-d3fc85cf9c68")
+		(uuid "285e8847-47ff-471a-bc88-3654bc546fb1")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/KiCad_Libs/Components/LIB_ETQ-P4M6R8KVC/ETQ-P4M6R8KVC/3D/ETQ-P4M6R8KVC.stp"
