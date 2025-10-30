@@ -8955,7 +8955,7 @@
 		)
 		(uuid "3a82b5ed-1675-4d81-8f0d-b06d137e0c75")
 	)
-	(label "REFCLKn"
+	(label "REFCLK_N"
 		(at 175.26 125.73 180)
 		(effects
 			(font
@@ -9015,7 +9015,7 @@
 		)
 		(uuid "4f81e79e-ae64-4ed2-8598-d895dd24564e")
 	)
-	(label "REFCLKp"
+	(label "REFCLK_P"
 		(at 231.14 184.15 0)
 		(effects
 			(font
@@ -9045,7 +9045,7 @@
 		)
 		(uuid "681b4e3f-da82-4060-9d9f-bb614d21f68a")
 	)
-	(label "REFCLKn"
+	(label "REFCLK_N"
 		(at 231.14 187.96 0)
 		(effects
 			(font
@@ -9355,7 +9355,7 @@
 		)
 		(uuid "f5db9020-03c3-4ab3-922f-0555a5544eb1")
 	)
-	(label "REFCLKp"
+	(label "REFCLK_P"
 		(at 175.26 123.19 180)
 		(effects
 			(font
