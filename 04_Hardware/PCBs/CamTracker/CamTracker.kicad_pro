@@ -682,6 +682,12 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/MCU/MCU_USB_N": [
+        "SIG_USB_90R"
+      ],
+      "/MCU/MCU_USB_P": [
+        "SIG_USB_90R"
+      ],
       "/NFC/TX1": [
         "SIG_RF_50R"
       ],
@@ -816,6 +822,12 @@
       ],
       "Net-(IC1-TX2)": [
         "SIG_NFC_20R"
+      ],
+      "Net-(J22-Pad2)": [
+        "SIG_USB_90R"
+      ],
+      "Net-(J22-Pad3)": [
+        "SIG_USB_90R"
       ],
       "Net-(J25-GND-Pad2)": [
         "SIG_RF_50R"
