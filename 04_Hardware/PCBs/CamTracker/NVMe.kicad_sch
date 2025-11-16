@@ -1284,7 +1284,7 @@
 					)
 				)
 			)
-			(property "Footprint" "000MCLib:121992304"
+			(property "Footprint" "000MCLib:NVMEE"
 				(at 0 26.67 0)
 				(effects
 					(font
@@ -1918,6 +1918,25 @@
 						)
 					)
 					(number "74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -93.98 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8487,6 +8506,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 146.05) (xy 320.04 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b07a69b4-da9e-4508-8ea4-911cd38f1e95")
+	)
+	(wire
+		(pts
 			(xy 295.91 232.41) (xy 295.91 236.22)
 		)
 		(stroke
@@ -8604,16 +8633,6 @@
 			(type default)
 		)
 		(uuid "c7002c7c-044d-4ff4-9d25-616fefde3ae5")
-	)
-	(wire
-		(pts
-			(xy 316.23 146.05) (xy 320.04 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c789df8f-2891-44bb-a343-13dcedd347f6")
 	)
 	(wire
 		(pts
@@ -10858,7 +10877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "000MCLib:121992304"
+		(property "Footprint" "000MCLib:NVMEE"
 			(at 290.83 74.93 0)
 			(effects
 				(font
@@ -11109,6 +11128,9 @@
 		)
 		(pin "69"
 			(uuid "c8544eba-31cf-4e8a-b345-cfe4d7373caa")
+		)
+		(pin "0"
+			(uuid "98328edb-fb6b-4948-8774-f3d66a7a6d56")
 		)
 		(instances
 			(project ""
