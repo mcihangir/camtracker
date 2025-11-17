@@ -1117,6 +1117,18 @@
           "label": "Manufacturer Name",
           "name": "Manufacturer Name",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part_Number",
+          "name": "Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Name",
+          "name": "Part Name",
+          "show": false
         }
       ],
       "filter_string": "",
