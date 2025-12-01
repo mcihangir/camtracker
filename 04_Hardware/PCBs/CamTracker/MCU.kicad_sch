@@ -211,6 +211,290 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "000MCLib:2174507-2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "2174507-2"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "000MCLib:21745072"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5-1773464-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=2174507-2&DocFormat=pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector USB micro SMD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TE Connectivity"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "2174507-2"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "2174507-2_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -15.24)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "MP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "MP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "MP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "MP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "000MCLib:67996-100HLF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4006,290 +4290,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "000MCLib:USB3076-30-A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "USB3076-30-A"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "000MCLib:USB307630A"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://gct.co/connector/usb3076"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Connector USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "USB3076-30-A"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "USB3076-30-A_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -15.24)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -7.62 180)
-					(length 5.08)
-					(name "MP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -10.16 180)
-					(length 5.08)
-					(name "MP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "000MCLib:W25Q128JVSIM"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4749,7 +4749,7 @@
 	)
 	(text "micro-B USB"
 		(exclude_from_sim no)
-		(at 40.894 63.246 0)
+		(at 42.418 62.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4771,10 +4771,10 @@
 		(uuid "068ae653-0498-42f8-8d5b-d48c708a374c")
 	)
 	(junction
-		(at 29.21 53.34)
+		(at 29.21 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b2e4323-51df-4ecd-abe4-c141e0c7a913")
+		(uuid "0d16407d-63ee-49d5-a108-68af3b0c3142")
 	)
 	(junction
 		(at 209.55 55.88)
@@ -4795,12 +4795,6 @@
 		(uuid "11d7be64-c288-4d5a-8427-52ddb4d7ab76")
 	)
 	(junction
-		(at 29.21 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1d2631ed-bb87-4664-a50b-9f5eb3346c79")
-	)
-	(junction
 		(at 143.51 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4813,12 +4807,6 @@
 		(uuid "2839273c-0f41-4125-a43b-cb69d611ae0b")
 	)
 	(junction
-		(at 29.21 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ba6ba90-7dbe-428d-9d88-a77dbf18e569")
-	)
-	(junction
 		(at 92.71 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4829,6 +4817,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e9c8fbd-20bb-497e-be5b-3ca0d59e24b0")
+	)
+	(junction
+		(at 54.61 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "452e367b-3000-405d-9e25-8c78352d5e8e")
 	)
 	(junction
 		(at 162.56 36.83)
@@ -4861,16 +4855,16 @@
 		(uuid "5ff8ea0d-77b0-4179-ae2f-afd1c3741b55")
 	)
 	(junction
+		(at 29.21 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "682d1c9f-84a0-4763-8340-8c6932f9de6c")
+	)
+	(junction
 		(at 77.47 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6be7b065-b076-483c-887e-5033227f348b")
-	)
-	(junction
-		(at 29.21 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c93079c-15b6-4912-96c7-d863d07ed90b")
 	)
 	(junction
 		(at 107.95 24.13)
@@ -4901,6 +4895,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a4814aa5-b3a7-443e-b5b5-325d829a3544")
+	)
+	(junction
+		(at 29.21 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a997a810-6610-4e2b-bf91-f0c147f2c056")
 	)
 	(junction
 		(at 123.19 38.1)
@@ -4969,12 +4969,6 @@
 		(uuid "e28e1475-8ab0-46fc-a2a1-efdb54e1a83d")
 	)
 	(junction
-		(at 54.61 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ebdc7ed7-9700-466f-b3d4-bea0766f7afd")
-	)
-	(junction
 		(at 170.18 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4991,6 +4985,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdf91804-7d16-4411-9676-252cf45eb4eb")
+	)
+	(junction
+		(at 29.21 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ffd7cdf7-cde4-464e-8b45-3acc0fb03cc6")
 	)
 	(no_connect
 		(at 143.51 93.98)
@@ -5140,7 +5140,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 45.72) (xy 54.61 48.26)
+			(xy 54.61 41.91) (xy 54.61 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5160,7 +5160,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 50.8) (xy 29.21 53.34)
+			(xy 29.21 40.64) (xy 29.21 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5177,16 +5177,6 @@
 			(type default)
 		)
 		(uuid "1fe2f07a-d43e-467f-8407-9da4c8dfdbba")
-	)
-	(wire
-		(pts
-			(xy 29.21 53.34) (xy 29.21 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "200bd8d0-f6f9-40f6-a458-84c16cf2d1d2")
 	)
 	(wire
 		(pts
@@ -5320,16 +5310,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 55.88) (xy 29.21 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3652583a-8272-4699-a2e2-3de2c1cfe2aa")
-	)
-	(wire
-		(pts
 			(xy 232.41 109.22) (xy 229.87 109.22)
 		)
 		(stroke
@@ -5420,6 +5400,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 45.72) (xy 54.61 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b296df-2a74-4f2a-905f-f719e4eedfdf")
+	)
+	(wire
+		(pts
 			(xy 81.28 114.3) (xy 92.71 114.3)
 		)
 		(stroke
@@ -5447,16 +5437,6 @@
 			(type default)
 		)
 		(uuid "4b2a0ede-3777-42c7-a63b-841be4cde813")
-	)
-	(wire
-		(pts
-			(xy 29.21 48.26) (xy 29.21 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b33a954-fc87-48a8-9fe9-45d678434c7a")
 	)
 	(wire
 		(pts
@@ -5517,16 +5497,6 @@
 			(type default)
 		)
 		(uuid "5a6ec3cb-3b21-4e7c-b11d-d546f5662d69")
-	)
-	(wire
-		(pts
-			(xy 29.21 40.64) (xy 29.21 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a8de313-e1bd-4b49-bd6b-9385f1e6fc51")
 	)
 	(wire
 		(pts
@@ -5710,6 +5680,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 53.34) (xy 29.21 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aef494e-a950-4f4f-aee1-ca993f8518a3")
+	)
+	(wire
+		(pts
 			(xy 214.63 120.65) (xy 223.52 120.65)
 		)
 		(stroke
@@ -5780,6 +5760,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 48.26) (xy 29.21 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9438540f-4387-4e77-824f-77e2320887ed")
+	)
+	(wire
+		(pts
 			(xy 217.17 43.18) (xy 209.55 43.18)
 		)
 		(stroke
@@ -5807,6 +5797,16 @@
 			(type default)
 		)
 		(uuid "9af75869-8d9d-45bc-b115-31fce8a82574")
+	)
+	(wire
+		(pts
+			(xy 29.21 50.8) (xy 29.21 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21f4606-723e-47fc-aaa4-719c80825881")
 	)
 	(wire
 		(pts
@@ -6040,16 +6040,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 41.91) (xy 54.61 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e24e4b1a-fc5e-4602-ace6-e80b0c6d04b7")
-	)
-	(wire
-		(pts
 			(xy 80.01 53.34) (xy 92.71 53.34)
 		)
 		(stroke
@@ -6157,6 +6147,16 @@
 			(type default)
 		)
 		(uuid "f5a0c202-777d-44a5-82c6-1e673ca82b92")
+	)
+	(wire
+		(pts
+			(xy 29.21 55.88) (xy 29.21 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f994ea93-b555-4be0-948e-8a4d6164a536")
 	)
 	(wire
 		(pts
@@ -11360,150 +11360,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000MCLib:USB3076-30-A")
-		(at 54.61 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b453c039-48ca-40c8-a4d5-ebcd4ef05107")
-		(property "Reference" "J22"
-			(at 41.91 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB3076-30-A"
-			(at 41.91 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000MCLib:USB307630A"
-			(at 33.02 -36.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gct.co/connector/usb3076"
-			(at 33.02 -136.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole"
-			(at 54.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-			(at 33.02 -636.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "USB3076-30-A"
-			(at 33.02 -736.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 54.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 54.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 54.61 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MP3"
-			(uuid "9eff4ab3-bf2d-4004-b69a-d4b56e1cd593")
-		)
-		(pin "MH1"
-			(uuid "42556218-8653-4aab-b6e4-7bd701063eaa")
-		)
-		(pin "4"
-			(uuid "7cb0a84a-7e77-4e9d-b2d5-e2d37fa6ed9b")
-		)
-		(pin "MH2"
-			(uuid "bc2f41d9-2c6b-4ae0-b075-33c4a1569061")
-		)
-		(pin "MP4"
-			(uuid "60f31f20-0542-465c-8905-91f05625b522")
-		)
-		(pin "1"
-			(uuid "985b1e16-f38a-4200-86f6-e604f86cf466")
-		)
-		(pin "MP2"
-			(uuid "c978aa02-ecd3-434b-a6bb-ec448cb08fdc")
-		)
-		(pin "5"
-			(uuid "b4c725fd-492e-4290-a0c4-f2593379b757")
-		)
-		(pin "2"
-			(uuid "56c42f9d-d2b2-4fc4-bcc1-37217601101b")
-		)
-		(pin "MP1"
-			(uuid "608e3c92-67e4-4421-9543-1f9752560f60")
-		)
-		(pin "3"
-			(uuid "ba406706-ef79-46fc-9d33-575acdde87a9")
-		)
-		(instances
-			(project ""
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/ee4e2257-2314-4680-890f-0b74cd6f0d79"
-					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 232.41 115.57 90)
 		(unit 1)
@@ -12081,6 +11937,123 @@
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/ee4e2257-2314-4680-890f-0b74cd6f0d79"
 					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:2174507-2")
+		(at 54.61 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4bd8bfa-5f62-48b9-b139-939dc893e30d")
+		(property "Reference" "J19"
+			(at 41.91 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2174507-2"
+			(at 41.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:21745072"
+			(at 33.02 -36.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=5-1773464-3&DocType=Data%20Sheet&DocLang=English&PartCntxt=2174507-2&DocFormat=pdf"
+			(at 33.02 -136.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector USB micro SMD"
+			(at 54.61 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity"
+			(at 33.02 -636.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "2174507-2"
+			(at 33.02 -736.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9de28a72-7cc6-4e29-8a24-e01f398f80ee")
+		)
+		(pin "3"
+			(uuid "c965f88d-c785-4f95-9807-05d51ce231b8")
+		)
+		(pin "MP4"
+			(uuid "0c53b94d-7f17-467f-a1ce-1802ad2d44bd")
+		)
+		(pin "4"
+			(uuid "289f2e86-a18c-4bfb-9905-84d14c6f1d9c")
+		)
+		(pin "2"
+			(uuid "7cc57b8d-6f89-44b0-9bde-f58fa4cbdd03")
+		)
+		(pin "MP2"
+			(uuid "55a43654-b5eb-426f-9c59-f5755bf47316")
+		)
+		(pin "5"
+			(uuid "6eaa9fe4-1adf-434b-8b92-482da5a3664c")
+		)
+		(pin "MP5"
+			(uuid "d57453bc-998f-43d5-84b6-faed1f72485d")
+		)
+		(pin "MP6"
+			(uuid "b43c2d16-b31c-4bd0-a6d7-c9bb88354159")
+		)
+		(pin "MP1"
+			(uuid "c94b3ee2-9d5a-464f-b0bb-d666d161d40a")
+		)
+		(pin "MP3"
+			(uuid "81ef608e-d6b0-4205-b322-d0f32c3133cb")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/ee4e2257-2314-4680-890f-0b74cd6f0d79"
+					(reference "J19")
 					(unit 1)
 				)
 			)

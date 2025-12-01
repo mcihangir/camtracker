@@ -12,6 +12,290 @@
 		(comment 1 "CamTracker")
 	)
 	(lib_symbols
+		(symbol "000MCLib:2336582-1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "2336582-1"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "000MCLib:23365821"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/en/product-2336582-1.html"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector SIM nano 4FF SIM, Push-Push Type, 7 Position"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TE Connectivity"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "2336582-1"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "2336582-1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -17.78)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "VPP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "CD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "CD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -5.08 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -7.62 180)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -12.7 180)
+					(length 5.08)
+					(name "MP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 -15.24 180)
+					(length 5.08)
+					(name "MP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "000MCLib:CGA6P1X7S1A476M250AC"
 			(pin_names
 				(hide yes)
@@ -8677,290 +8961,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "000MCLib:SIM8066-6-1-14-01-A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -10.414 11.176 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SIM8066-6-1-14-01-A"
-				(at -11.43 -15.494 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "000MCLib:SIM8066611401A"
-				(at 26.67 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://gct.co/connector/sim8066"
-				(at 26.67 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Connector Memory Card Connectors 1.44mm Nano SIM Conn w/Peg and Switch"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-				(at 26.67 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "SIM8066-6-1-14-01-A"
-				(at 26.67 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SIM8066-6-1-14-01-A_1_1"
-				(rectangle
-					(start -10.16 6.985)
-					(end 10.16 -14.605)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -15.24 3.81 0)
-					(length 5.08)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -1.27 0)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -6.35 0)
-					(length 5.08)
-					(name "I/O"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -15.24 -11.43 0)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 3.81 180)
-					(length 5.08)
-					(name "VPP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 1.27 180)
-					(length 5.08)
-					(name "CD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "CD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -1.27 180)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -3.81 180)
-					(length 5.08)
-					(name "GND_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -6.35 180)
-					(length 5.08)
-					(name "GND_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -8.89 180)
-					(length 5.08)
-					(name "GND_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 -11.43 180)
-					(length 5.08)
-					(name "GND_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "000MCLib:SRV05-4.TCT"
 			(pin_names
 				(hide yes)
@@ -10339,6 +10339,12 @@
 		(uuid "3bd217fb-da20-4ab3-a887-b19139f89b6d")
 	)
 	(junction
+		(at 153.67 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e521870-8813-4a80-9d54-8ac9df239937")
+	)
+	(junction
 		(at 58.42 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10349,6 +10355,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45b08a90-a9bc-49a7-b568-e3c3fd879e64")
+	)
+	(junction
+		(at 153.67 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d5bbcf3-5870-43ff-b040-94e40bb7cbf8")
 	)
 	(junction
 		(at 146.05 160.02)
@@ -10429,7 +10441,7 @@
 		(uuid "6708e9c3-f9ab-439f-8911-80df34b58203")
 	)
 	(junction
-		(at 165.1 58.42)
+		(at 160.02 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6752e450-435e-4a38-b4a9-14dda23ddd88")
@@ -10445,6 +10457,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76123d89-1beb-4907-b2cb-ab7d5d432bd9")
+	)
+	(junction
+		(at 153.67 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80495d15-3e68-4861-84c3-9fc5177d08d6")
 	)
 	(junction
 		(at 67.31 142.24)
@@ -10465,16 +10483,16 @@
 		(uuid "9297956f-5734-4234-9792-ef30f8a71796")
 	)
 	(junction
+		(at 153.67 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "938625d2-808e-4907-ae41-0b664c26ec53")
+	)
+	(junction
 		(at 237.49 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "993b7ed2-6d86-4a43-ba77-a66fd9b2fd88")
-	)
-	(junction
-		(at 158.75 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4f5ad7a-84af-430a-8c6c-7ec33120554e")
 	)
 	(junction
 		(at 146.05 134.62)
@@ -10499,12 +10517,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b795a1f6-45e2-4688-8677-b111757bef72")
-	)
-	(junction
-		(at 158.75 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b838cf0f-0e96-4284-875a-b6cbbcc93eb0")
 	)
 	(junction
 		(at 78.74 115.57)
@@ -10561,12 +10573,6 @@
 		(uuid "e04826c5-c856-4114-a892-a8cfcb31ee2f")
 	)
 	(junction
-		(at 158.75 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0712b4e-71d7-4e77-a021-d096534d461e")
-	)
-	(junction
 		(at 175.26 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10585,12 +10591,6 @@
 		(uuid "ebe89a04-26ad-42c1-97f2-509aacdbfc97")
 	)
 	(junction
-		(at 158.75 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f5fa4564-4bca-4624-a862-37ef46c135e0")
-	)
-	(junction
 		(at 187.96 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10605,7 +10605,7 @@
 		(uuid "4373936f-e6cd-4916-b212-c675cd54b60f")
 	)
 	(no_connect
-		(at 158.75 55.88)
+		(at 153.67 55.88)
 		(uuid "77acad0e-2293-4ed5-9dd7-4b0a3a070b23")
 	)
 	(no_connect
@@ -10624,6 +10624,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 66.04) (xy 153.67 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b68bae-b54f-4f8d-8727-b4d48f1bc3d4")
+	)
+	(wire
+		(pts
 			(xy 187.96 156.21) (xy 187.96 158.75)
 		)
 		(stroke
@@ -10631,26 +10641,6 @@
 			(type default)
 		)
 		(uuid "062ee58b-c75a-4825-be21-64293ab70003")
-	)
-	(wire
-		(pts
-			(xy 158.75 60.96) (xy 158.75 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07eaaf10-0ebe-49bc-bf0d-1f1e54db549d")
-	)
-	(wire
-		(pts
-			(xy 158.75 68.58) (xy 158.75 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cd446bc-2661-4ec2-a3a6-35b06c4ee3d9")
 	)
 	(wire
 		(pts
@@ -10851,6 +10841,16 @@
 			(type default)
 		)
 		(uuid "365d8d08-bc35-4676-a2df-cf259f7e607d")
+	)
+	(wire
+		(pts
+			(xy 153.67 63.5) (xy 153.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37955de3-b072-411e-8563-f583c9348bcf")
 	)
 	(wire
 		(pts
@@ -11184,16 +11184,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 71.12) (xy 158.75 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e6bfbc5-2d0e-498c-812b-7209cbdf0d2d")
-	)
-	(wire
-		(pts
 			(xy 67.31 142.24) (xy 73.66 142.24)
 		)
 		(stroke
@@ -11251,6 +11241,16 @@
 			(type default)
 		)
 		(uuid "84751f08-2dc7-4b5c-9b36-7a9d57c27033")
+	)
+	(wire
+		(pts
+			(xy 153.67 68.58) (xy 153.67 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8611340a-2df5-407b-855b-3148d819dd89")
 	)
 	(wire
 		(pts
@@ -11384,7 +11384,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 58.42) (xy 165.1 58.42)
+			(xy 153.67 58.42) (xy 160.02 58.42)
 		)
 		(stroke
 			(width 0)
@@ -11604,7 +11604,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 66.04) (xy 158.75 68.58)
+			(xy 153.67 60.96) (xy 153.67 63.5)
 		)
 		(stroke
 			(width 0)
@@ -11624,7 +11624,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 58.42) (xy 179.07 58.42)
+			(xy 160.02 58.42) (xy 173.99 58.42)
 		)
 		(stroke
 			(width 0)
@@ -11724,6 +11724,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 71.12) (xy 153.67 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caa91472-fa54-4f4b-b41b-62b3803cce32")
+	)
+	(wire
+		(pts
 			(xy 138.43 130.81) (xy 138.43 139.7)
 		)
 		(stroke
@@ -11811,16 +11821,6 @@
 			(type default)
 		)
 		(uuid "dcc1d2a1-19d2-4a6a-9d7c-a3f380f7b07c")
-	)
-	(wire
-		(pts
-			(xy 158.75 63.5) (xy 158.75 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd987286-709e-42ea-886f-9d315d888ca9")
 	)
 	(wire
 		(pts
@@ -12013,7 +12013,7 @@
 		(uuid "32c67722-5862-4b80-8ae2-cc2d4006e23f")
 	)
 	(label "USIM1_DET"
-		(at 179.07 58.42 180)
+		(at 173.99 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12503,6 +12503,123 @@
 		)
 	)
 	(symbol
+		(lib_id "000MCLib:2336582-1")
+		(at 128.27 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1357a124-0a29-4d8a-b867-1986fba2b3d2")
+		(property "Reference" "J13"
+			(at 140.97 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2336582-1"
+			(at 140.97 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:23365821"
+			(at 149.86 150.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/en/product-2336582-1.html"
+			(at 149.86 250.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector SIM nano 4FF SIM, Push-Push Type, 7 Position"
+			(at 128.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity"
+			(at 149.86 750.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "2336582-1"
+			(at 149.86 850.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "C6"
+			(uuid "1ee1011d-bf0c-4c76-b476-d04787d1a74a")
+		)
+		(pin "MP1"
+			(uuid "fe2161a9-4a5b-45ae-b66e-aab1308770f5")
+		)
+		(pin "MP3"
+			(uuid "ca24509f-c037-4c33-a25d-e41fc48eb312")
+		)
+		(pin "C2"
+			(uuid "53a33323-c9b6-4c2d-b390-a1e5979a8121")
+		)
+		(pin "C7"
+			(uuid "d2a835e1-bc67-4d2a-bcc4-9b40335912ec")
+		)
+		(pin "C5"
+			(uuid "4884e8e9-485e-46e0-b0c0-e169b0c034ef")
+		)
+		(pin "MP4"
+			(uuid "fe08314f-d421-42ab-95db-d8be20707f69")
+		)
+		(pin "C3"
+			(uuid "2afa2084-15f5-447e-bc35-83fffa00042e")
+		)
+		(pin "C1"
+			(uuid "cfd591df-ff27-4263-9583-b2009802ae34")
+		)
+		(pin "CD1"
+			(uuid "b4714418-3893-422a-b9d5-0bb43aa7f17a")
+		)
+		(pin "MP2"
+			(uuid "b5c8bb67-b7b2-48b7-8ecd-4359aa1beda5")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/3c2aa49b-c8be-4870-9888-62f9793db4a0"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "000MCLib:RC0402JR-0751KL")
 		(at 194.31 149.86 90)
 		(unit 1)
@@ -12913,7 +13030,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:RC0402JR-07100KL")
-		(at 165.1 52.07 90)
+		(at 160.02 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12922,7 +13039,7 @@
 		(fields_autoplaced yes)
 		(uuid "2471cc9c-5183-4399-a6a2-8091044a0bd0")
 		(property "Reference" "R75"
-			(at 167.64 50.7999 90)
+			(at 162.56 50.7999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,7 +13048,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 167.64 53.3399 90)
+			(at 162.56 53.3399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12940,7 +13057,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:RC0402N_YAG"
-			(at 165.1 58.42 0)
+			(at 160.02 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12950,7 +13067,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 52.07 0)
+			(at 160.02 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12960,7 +13077,7 @@
 			)
 		)
 		(property "Description" "Resistor 100K 1/16W CH0402"
-			(at 165.1 58.42 0)
+			(at 160.02 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12969,7 +13086,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 165.1 52.07 0)
+			(at 160.02 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12978,7 +13095,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-07100KL"
-			(at 165.1 52.07 0)
+			(at 160.02 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12987,7 +13104,7 @@
 			)
 		)
 		(property "Manufacturer Name" ""
-			(at 165.1 52.07 90)
+			(at 160.02 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12996,7 +13113,7 @@
 			)
 		)
 		(property "Part_Number" ""
-			(at 165.1 52.07 90)
+			(at 160.02 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13005,7 +13122,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 165.1 52.07 90)
+			(at 160.02 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15691,7 +15808,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 165.1 45.72 0)
+		(at 160.02 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15699,7 +15816,7 @@
 		(dnp no)
 		(uuid "8ef5a4ce-cf10-45fc-b234-3fa71bd05179")
 		(property "Reference" "#PWR0130"
-			(at 165.1 49.53 0)
+			(at 160.02 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15708,7 +15825,7 @@
 			)
 		)
 		(property "Value" "LDO15A_1V8"
-			(at 165.1 41.656 0)
+			(at 160.02 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15716,7 +15833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 45.72 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15725,7 +15842,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 45.72 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15734,7 +15851,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 165.1 45.72 0)
+			(at 160.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16171,7 +16288,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 73.66 0)
+		(at 153.67 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16179,7 +16296,7 @@
 		(dnp no)
 		(uuid "97e0dc26-d0f3-41a2-b5df-db9067b558c3")
 		(property "Reference" "#PWR0129"
-			(at 158.75 80.01 0)
+			(at 153.67 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16188,7 +16305,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 77.47 0)
+			(at 153.67 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16196,7 +16313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 73.66 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16205,7 +16322,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 73.66 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16214,7 +16331,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 73.66 0)
+			(at 153.67 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17218,150 +17335,6 @@
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/3c2aa49b-c8be-4870-9888-62f9793db4a0"
 					(reference "R77")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000MCLib:SIM8066-6-1-14-01-A")
-		(at 143.51 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2b8b8a9-e05e-4575-bdb2-cb9beb10df80")
-		(property "Reference" "J13"
-			(at 143.51 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SIM8066-6-1-14-01-A"
-			(at 143.51 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000MCLib:SIM8066611401A"
-			(at 170.18 154.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gct.co/connector/sim8066"
-			(at 170.18 254.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector Memory Card Connectors 1.44mm Nano SIM Conn w/Peg and Switch"
-			(at 143.51 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-			(at 170.18 754.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "SIM8066-6-1-14-01-A"
-			(at 170.18 854.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 143.51 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 143.51 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 143.51 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "C1"
-			(uuid "eaaf2805-8ac3-48e4-8e7a-13a75b42bde0")
-		)
-		(pin "CD1"
-			(uuid "5d5f987b-6f02-49de-b4a5-ed85ce8e1b39")
-		)
-		(pin "C7"
-			(uuid "097df873-7e93-4c79-b489-408b294ac2fe")
-		)
-		(pin "G3"
-			(uuid "d86f0744-99a2-4fb7-a2d4-82556a32ad53")
-		)
-		(pin "C2"
-			(uuid "65d466c8-451e-4fb2-b083-93947edd12e4")
-		)
-		(pin "G2"
-			(uuid "6b382c9f-4a7d-41b5-8e46-33f083e00b78")
-		)
-		(pin "C6"
-			(uuid "3d888983-bb9b-4fa1-95f3-128213872c9e")
-		)
-		(pin "C5"
-			(uuid "132536a6-eddf-4bad-bb5a-2dff00b71a29")
-		)
-		(pin "G4"
-			(uuid "565c9850-91bc-4050-a25c-5abbb8b2ad2e")
-		)
-		(pin "G1"
-			(uuid "fe50d387-8af5-4a90-a9f4-79fe397d9144")
-		)
-		(pin "C3"
-			(uuid "097a6f55-93a0-42ab-8014-b84996769083")
-		)
-		(instances
-			(project ""
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/3c2aa49b-c8be-4870-9888-62f9793db4a0"
-					(reference "J13")
 					(unit 1)
 				)
 			)

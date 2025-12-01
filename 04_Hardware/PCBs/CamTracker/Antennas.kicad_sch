@@ -12,58 +12,49 @@
 		(comment 1 "CamTracker")
 	)
 	(lib_symbols
-		(symbol "000MCLib:636101112001"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
+		(symbol "000MCLib:1909763-1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -3.302 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "636101112001"
-				(at 0.508 -6.096 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "000MCLib:COAX2_636101112001_WRE"
-				(at -1.016 5.08 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
+					(justify left top)
 				)
 			)
-			(property "Datasheet" "636101112001"
-				(at 0 5.08 0)
+			(property "Value" "1909763-1"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
+					(justify left top)
 				)
 			)
-			(property "Description" "Connector IPEX MHF1 RF"
-				(at -8.89 2.54 0)
+			(property "Footprint" "000MCLib:1909763-1"
+				(at 16.51 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Wurth Elektronik"
+			(property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector MHF1 IPEX RF UFL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -72,492 +63,42 @@
 					(hide yes)
 				)
 			)
-			(property "Part Number" "636101112001"
-				(at 0 0 0)
+			(property "Manufacturer" "TE Connectivity"
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "636101112001"
-				(at 0 0 0)
+			(property "Part Number" "1909763-1"
+				(at 16.51 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "COAX2_636101112001_WRE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "636101112001_1_1"
-				(polyline
-					(pts
-						(xy -3.81 5.08) (xy -3.81 -5.08)
-					)
+			(symbol "1909763-1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
 					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -5.08) (xy 3.81 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 0)
-					(radius 0.127)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -1.27 -2.54)
-					(radius 0.127)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy -3.81 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0 1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 5.08) (xy -3.81 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.81 -5.08) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
+						(width 0.254)
+						(type solid)
 					)
 					(fill
 						(type none)
 					)
 				)
 				(pin passive line
-					(at -8.89 2.54 0)
-					(length 5.08)
-					(name "SIGNAL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 0 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -8.89 -2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "636101112001_1_2"
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 -2.54) (xy 6.35 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 -2.54)
-					(radius 0.127)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 6.35 -5.08)
-					(radius 0.127)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -7.62) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
 					(at 0 0 0)
 					(length 5.08)
-					(name "SIGNAL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "GND"
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -572,10 +113,28 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 0)
+				(pin passive line
+					(at 20.32 0 180)
 					(length 5.08)
-					(name "GND"
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7486,22 +7045,10 @@
 		(uuid "0c335eab-2870-45c3-b320-5408cc93134a")
 	)
 	(junction
-		(at 228.6 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16763df5-0bac-48cb-8bd8-afe1ab962238")
-	)
-	(junction
 		(at 223.52 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2752b0fc-9f7b-466f-8d28-a0bf7bc5be4a")
-	)
-	(junction
-		(at 127 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "316068aa-2cbe-4cba-a528-e6c246fde72e")
 	)
 	(junction
 		(at 163.83 106.68)
@@ -7510,22 +7057,28 @@
 		(uuid "366ffdab-db26-4b25-b58a-bd2974e52925")
 	)
 	(junction
+		(at 205.74 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57fad649-07f7-4b08-b4ce-47738659bd6d")
+	)
+	(junction
 		(at 156.21 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58d28dfc-305d-4c49-8506-87684313d29e")
 	)
 	(junction
-		(at 228.6 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "852cd903-b40f-4c7b-8455-f06713a0c36e")
-	)
-	(junction
 		(at 189.23 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8905454f-75f0-463e-88c0-c42d703c7f21")
+	)
+	(junction
+		(at 147.32 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95b50779-f03a-4db3-b6fe-a3459782e4ca")
 	)
 	(junction
 		(at 163.83 87.63)
@@ -7540,22 +7093,16 @@
 		(uuid "c2454c51-47aa-46f4-948d-37df3dc46856")
 	)
 	(junction
-		(at 233.68 58.42)
+		(at 248.92 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c674f75d-4ef5-4102-a116-e79b134dd082")
+		(uuid "c863ab9f-139b-4afe-b445-7d0e8cbaf774")
 	)
 	(junction
-		(at 185.42 133.35)
+		(at 248.92 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c777a391-610e-4166-9d52-8bc9e0509054")
-	)
-	(junction
-		(at 233.68 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d8830394-2c44-46e0-b0f9-4da10d18f649")
+		(uuid "cabe943e-f0bf-424e-acc5-f8275d6e9888")
 	)
 	(junction
 		(at 189.23 106.68)
@@ -7564,10 +7111,22 @@
 		(uuid "e86c7a08-60f0-4287-a4e3-ce7e9407a9d7")
 	)
 	(junction
+		(at 254 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb00328c-97e3-4754-882e-82be0209a8ac")
+	)
+	(junction
 		(at 224.79 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee5a8681-bc29-4bab-8fa5-4e95fd005ce1")
+	)
+	(junction
+		(at 254 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eedbd431-9cb7-4f99-8bc8-22d03a5cc091")
 	)
 	(junction
 		(at 205.74 53.34)
@@ -7593,16 +7152,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 58.42) (xy 233.68 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aabc8e6-f1c5-4f9f-94fe-7d8c4a2ce81b")
-	)
-	(wire
-		(pts
 			(xy 163.83 104.14) (xy 163.83 106.68)
 		)
 		(stroke
@@ -7613,7 +7162,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 66.04) (xy 233.68 66.04)
+			(xy 223.52 66.04) (xy 254 66.04)
 		)
 		(stroke
 			(width 0)
@@ -7643,13 +7192,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 106.68) (xy 228.6 106.68)
+			(xy 207.01 106.68) (xy 248.92 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "22a1c9d1-7ea4-4632-bcbb-b32198eeaf5b")
+	)
+	(wire
+		(pts
+			(xy 147.32 53.34) (xy 147.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e5f583-9f6e-4558-b200-0e3bf616e2bf")
 	)
 	(wire
 		(pts
@@ -7673,13 +7232,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 133.35) (xy 185.42 140.97)
+			(xy 254 55.88) (xy 254 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e555788-0bdb-471e-ab19-0917c99dc391")
+		(uuid "3c7b7229-6837-42f7-9add-15762dc1d675")
 	)
 	(wire
 		(pts
@@ -7693,16 +7252,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 58.42) (xy 127 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43109f27-9f3f-48d5-9c85-0a5eeda656ef")
-	)
-	(wire
-		(pts
 			(xy 189.23 93.98) (xy 191.77 93.98)
 		)
 		(stroke
@@ -7713,13 +7262,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 55.88) (xy 127 58.42)
+			(xy 248.92 96.52) (xy 248.92 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "562915ef-393a-4122-ad6f-527f90b93984")
+		(uuid "53abffc8-4c9e-4d95-aa9e-cae455bb5bc4")
 	)
 	(wire
 		(pts
@@ -7753,6 +7302,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 128.27) (xy 205.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64b5ec47-ff05-4f97-aab6-5f5a554f04bc")
+	)
+	(wire
+		(pts
 			(xy 205.74 66.04) (xy 223.52 66.04)
 		)
 		(stroke
@@ -7760,16 +7319,6 @@
 			(type default)
 		)
 		(uuid "65c6dfb7-a5fa-4e46-83cc-8f2de72f4f1c")
-	)
-	(wire
-		(pts
-			(xy 228.6 99.06) (xy 228.6 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66cfe036-58c5-4ce4-af5d-cc6f1bb2aa9f")
 	)
 	(wire
 		(pts
@@ -7813,26 +7362,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 96.52) (xy 228.6 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86f4452e-b985-4ae9-bb05-ca31aa4fdbae")
-	)
-	(wire
-		(pts
-			(xy 233.68 55.88) (xy 233.68 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94da6f2e-d3de-4950-9ece-44493caf3909")
-	)
-	(wire
-		(pts
 			(xy 104.14 53.34) (xy 127 53.34)
 		)
 		(stroke
@@ -7840,6 +7369,16 @@
 			(type default)
 		)
 		(uuid "9c5bde7f-1f0c-4dee-a4b0-b9aeb7a6c9bb")
+	)
+	(wire
+		(pts
+			(xy 205.74 132.08) (xy 205.74 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1be28aa-76a7-4cab-a1b0-042f1745f0af")
 	)
 	(wire
 		(pts
@@ -7903,6 +7442,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 93.98) (xy 248.92 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb2fb877-ee9a-41fa-a563-fd6fcf628324")
+	)
+	(wire
+		(pts
 			(xy 72.39 90.17) (xy 62.23 90.17)
 		)
 		(stroke
@@ -7923,13 +7472,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 130.81) (xy 185.42 133.35)
+			(xy 254 53.34) (xy 254 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cde62f54-1155-46bb-a72a-8db9db92d9b6")
+		(uuid "d6c0cc5d-c0e7-457d-9ad8-41eb72899990")
 	)
 	(wire
 		(pts
@@ -7980,6 +7529,16 @@
 			(type default)
 		)
 		(uuid "e2b041ab-4d5f-4e06-93a2-a3a73e32ff5e")
+	)
+	(wire
+		(pts
+			(xy 147.32 55.88) (xy 147.32 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff01683f-f691-4315-b45a-8a24486e864c")
 	)
 	(label "ANT_GNSS_C0"
 		(at 204.47 93.98 0)
@@ -8093,7 +7652,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 66.04 0)
+		(at 254 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8101,7 +7660,7 @@
 		(dnp no)
 		(uuid "05e2eb34-56ce-41b0-b594-84d7bdc077b6")
 		(property "Reference" "#PWR0141"
-			(at 233.68 72.39 0)
+			(at 254 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8110,7 +7669,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 69.85 0)
+			(at 254 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8118,7 +7677,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 66.04 0)
+			(at 254 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8127,7 +7686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 66.04 0)
+			(at 254 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +7695,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 66.04 0)
+			(at 254 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,52 +8186,238 @@
 		)
 	)
 	(symbol
-		(lib_id "000MCLib:636101112001")
-		(at 237.49 96.52 0)
+		(lib_id "000MCLib:1909763-1")
+		(at 185.42 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5103d607-2eef-474d-a8e2-ca00a7dfdcc4")
+		(uuid "427d5166-dea3-499e-ac97-a1b872ff890c")
+		(property "Reference" "J16"
+			(at 195.58 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1909763-1"
+			(at 195.58 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:1909763-1"
+			(at 201.93 223.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English"
+			(at 201.93 323.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector MHF1 IPEX RF UFL"
+			(at 185.42 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity"
+			(at 201.93 823.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1909763-1"
+			(at 201.93 923.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "07881a6c-750c-4031-b41c-060073b082ab")
+		)
+		(pin "1"
+			(uuid "cb2affa5-eeb0-4256-9fb1-073b9978c959")
+		)
+		(pin "3"
+			(uuid "f7400e77-44b1-45f1-9292-24506a85acd2")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:1909763-1")
+		(at 233.68 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45b035ef-002b-411f-943c-7ab96ef259ca")
+		(property "Reference" "J15"
+			(at 243.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1909763-1"
+			(at 243.84 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:1909763-1"
+			(at 250.19 148.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English"
+			(at 250.19 248.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector MHF1 IPEX RF UFL"
+			(at 233.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity"
+			(at 250.19 748.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1909763-1"
+			(at 250.19 848.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "124ba7b7-5b9d-43dd-a00b-048a00be2e6a")
+		)
+		(pin "1"
+			(uuid "67418d79-c449-4f79-aeb1-5ea464888633")
+		)
+		(pin "2"
+			(uuid "f06e2b55-a011-418a-9399-fe87fe93c72d")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:1909763-1")
+		(at 228.6 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4faaf5b3-7867-4fcf-aabb-c89836cf857e")
 		(property "Reference" "J17"
-			(at 242.57 95.2499 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "636101112001"
-			(at 242.57 97.7899 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000MCLib:COAX2_636101112001_WRE"
-			(at 236.474 91.44 0)
+			(at 238.76 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "636101112001"
-			(at 237.49 91.44 0)
+		(property "Value" "1909763-1"
+			(at 238.76 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Footprint" "000MCLib:1909763-1"
+			(at 245.11 188.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector IPEX MHF1 RF"
+		(property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English"
+			(at 245.11 288.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector MHF1 IPEX RF UFL"
 			(at 228.6 93.98 0)
 			(effects
 				(font
@@ -8681,62 +8426,37 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 237.49 96.52 0)
+		(property "Manufacturer" "TE Connectivity"
+			(at 245.11 788.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Part Number" "636101112001"
-			(at 237.49 96.52 0)
+		(property "Part Number" "1909763-1"
+			(at 245.11 888.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 237.49 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 237.49 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 237.49 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "3b431f3a-c791-49d3-bd08-acc1df2aabb5")
-		)
-		(pin "3"
-			(uuid "4ca3a1aa-ddef-4dd9-8d3b-da1c5e9618c1")
+			(uuid "41e399cf-9719-40d9-bc80-e6d8632c981d")
 		)
 		(pin "1"
-			(uuid "47ddc040-e617-4b62-b4af-b53fa6a2901f")
+			(uuid "08f1ce08-be9f-4970-8b70-b248c1550840")
+		)
+		(pin "3"
+			(uuid "0a8675fd-24ff-47ec-8f5b-f1bc500aa617")
 		)
 		(instances
-			(project "CamTracker"
+			(project ""
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
 					(reference "J17")
 					(unit 1)
@@ -8746,7 +8466,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 140.97 0)
+		(at 205.74 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8754,7 +8474,7 @@
 		(dnp no)
 		(uuid "5487adf0-21bf-43ce-915e-1666f6221dda")
 		(property "Reference" "#PWR0139"
-			(at 185.42 147.32 0)
+			(at 205.74 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8763,7 +8483,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 144.78 0)
+			(at 205.74 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8771,7 +8491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 140.97 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,7 +8500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 140.97 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8789,7 +8509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 140.97 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8804,6 +8524,99 @@
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
 					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:1909763-1")
+		(at 127 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5847a3bd-b47d-4c8e-80f9-b5e6e010f02a")
+		(property "Reference" "J10"
+			(at 137.16 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1909763-1"
+			(at 137.16 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:1909763-1"
+			(at 143.51 148.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1909763&DocType=Customer+Drawing&DocLang=English"
+			(at 143.51 248.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector MHF1 IPEX RF UFL"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity"
+			(at 143.51 748.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "1909763-1"
+			(at 143.51 848.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3cd66960-1162-4930-9faa-634f92670c94")
+		)
+		(pin "1"
+			(uuid "36a321ff-ec39-476a-88ab-3e6ddb075f24")
+		)
+		(pin "2"
+			(uuid "b70f8cc5-1790-42f7-888b-ac5af42fef76")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -10188,124 +10001,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000MCLib:636101112001")
-		(at 194.31 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f0774b4-c008-4d65-b47b-890ff601044e")
-		(property "Reference" "J16"
-			(at 199.39 129.5399 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "636101112001"
-			(at 199.39 132.0799 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000MCLib:COAX2_636101112001_WRE"
-			(at 193.294 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "636101112001"
-			(at 194.31 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector IPEX MHF1 RF"
-			(at 185.42 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 194.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "636101112001"
-			(at 194.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 194.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 194.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 194.31 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9714c797-f293-4f2d-bf38-422242d2812a")
-		)
-		(pin "3"
-			(uuid "17b94072-3261-41b8-8654-17a322ed3eda")
-		)
-		(pin "1"
-			(uuid "3a129e9f-1e79-4727-85ee-ba5eaba00bd7")
-		)
-		(instances
-			(project "CamTracker"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
-					(reference "J16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "000MCLib:GRM1555C1H330JA01D")
 		(at 189.23 100.33 270)
 		(unit 1)
@@ -10539,7 +10234,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 228.6 106.68 0)
+		(at 248.92 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10547,7 +10242,7 @@
 		(dnp no)
 		(uuid "a4a73655-880d-4d99-8c42-a54122ec5ed4")
 		(property "Reference" "#PWR0140"
-			(at 228.6 113.03 0)
+			(at 248.92 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10556,7 +10251,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 228.6 110.49 0)
+			(at 248.92 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10564,7 +10259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.6 106.68 0)
+			(at 248.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10573,7 +10268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 106.68 0)
+			(at 248.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,7 +10277,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 228.6 106.68 0)
+			(at 248.92 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10717,242 +10412,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000MCLib:636101112001")
-		(at 242.57 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad6735ca-3c12-4c3d-b34f-67af7acdfee9")
-		(property "Reference" "J18"
-			(at 247.65 54.6099 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "636101112001"
-			(at 247.65 57.1499 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000MCLib:COAX2_636101112001_WRE"
-			(at 241.554 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "636101112001"
-			(at 242.57 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector IPEX MHF1 RF"
-			(at 233.68 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 242.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "636101112001"
-			(at 242.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 242.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 242.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 242.57 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "19bc7764-7273-4878-8d72-494a07e73f48")
-		)
-		(pin "3"
-			(uuid "34af06d6-ed46-4e89-9f3d-da16e59c1b9c")
-		)
-		(pin "1"
-			(uuid "21942be6-6eb2-4a39-b36f-b05069b8d0e4")
-		)
-		(instances
-			(project "CamTracker"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
-					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000MCLib:636101112001")
-		(at 135.89 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3f55b14-c36c-417a-81b5-1c572896257b")
-		(property "Reference" "J15"
-			(at 140.97 54.6099 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "636101112001"
-			(at 140.97 57.1499 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000MCLib:COAX2_636101112001_WRE"
-			(at 134.874 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "636101112001"
-			(at 135.89 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector IPEX MHF1 RF"
-			(at 127 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Wurth Elektronik"
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "636101112001"
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 135.89 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3728129-60bd-4a38-b089-5f3b79177b99")
-		)
-		(pin "3"
-			(uuid "6e2ebaec-983c-4d25-abfa-ca0fe2a68100")
-		)
-		(pin "1"
-			(uuid "0f37dbb0-f434-4f35-a27e-a5906e442c69")
-		)
-		(instances
-			(project ""
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/373f33e2-7aee-45a5-8557-24b7dea83b68"
-					(reference "J15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "000MCLib:GRM1555C1H101JA01J")
 		(at 218.44 93.98 0)
 		(unit 1)
@@ -11070,7 +10529,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 66.04 0)
+		(at 147.32 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11078,7 +10537,7 @@
 		(dnp no)
 		(uuid "d433e6c6-c80a-4ae6-b4f0-d2d2cf1bc166")
 		(property "Reference" "#PWR0138"
-			(at 127 72.39 0)
+			(at 147.32 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11087,7 +10546,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 69.85 0)
+			(at 147.32 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11095,7 +10554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 66.04 0)
+			(at 147.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,7 +10563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 66.04 0)
+			(at 147.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11113,7 +10572,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 66.04 0)
+			(at 147.32 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
