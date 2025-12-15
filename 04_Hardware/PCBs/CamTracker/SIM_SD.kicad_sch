@@ -12,6 +12,436 @@
 		(comment 1 "CamTracker")
 	)
 	(lib_symbols
+		(symbol "000MCLib:2201778-1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 18.288 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "2201778-1"
+				(at 18.288 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "000MCLib:2201778-1_TEC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=501-78508&DocType=Specification+Or+Standard&DocLang=English&PartCntxt=2201778-1&DocFormat=pdf"
+				(at -10.16 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Connector SD Card SMT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "TE Connectivity"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "2201778-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2201778-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "2201778-1_TEC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "2201778-1_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -36.83)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -36.83) (xy 27.94 -36.83)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.94 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.94 -36.83) (xy 27.94 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "2201778-1_1_1"
+				(pin passive line
+					(at 0 2.54 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -1.27 0)
+					(length 7.62)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 0)
+					(length 7.62)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -16.51 0)
+					(length 7.62)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "CD/DAT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -24.13 0)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "SWA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -33.02 0)
+					(length 7.62)
+					(name "SWB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 2.54 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -5.08 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -7.62 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -10.16 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "000MCLib:2336582-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -934,308 +1364,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "000MCLib:MEM2061-01-188-00-A"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 39.37 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "MEM2061-01-188-00-A"
-				(at 39.37 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "000MCLib:MEM20610118800A"
-				(at 39.37 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://gct.co/files/drawings/mem2061.pdf?v=db251ddb-1946-4f24-aa19-b8a17901bdd2"
-				(at 39.37 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Connector -  Memory Card, 8 Contacts , With Switch"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-				(at 39.37 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "MEM2061-01-188-00-A"
-				(at 39.37 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "MEM2061-01-188-00-A_1_1"
-				(rectangle
-					(start 11.43 22.225)
-					(end 34.29 -24.13)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 6.35 19.05 0)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 15.24 0)
-					(length 5.08)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 11.43 0)
-					(length 5.08)
-					(name "CMD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 7.62 0)
-					(length 5.08)
-					(name "DAT0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 3.81 0)
-					(length 5.08)
-					(name "DAT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 0)
-					(length 5.08)
-					(name "DAT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -3.81 0)
-					(length 5.08)
-					(name "CD/DAT3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -7.62 0)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "P6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -12.7 0)
-					(length 5.08)
-					(name "CARD_DETECT_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "CD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -15.24 0)
-					(length 5.08)
-					(name "CARD_DETECT_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "CD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -17.78 0)
-					(length 5.08)
-					(name "GND_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 -20.32 0)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10303,6 +10431,12 @@
 		(uuid "0241faae-1839-472f-b903-4b7cbb5226b7")
 	)
 	(junction
+		(at 270.51 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e23411b-546e-4f61-ad4b-ae307c065fd6")
+	)
+	(junction
 		(at 110.49 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10321,16 +10455,16 @@
 		(uuid "235c5981-cc46-4f20-976f-abadb9f1a4cb")
 	)
 	(junction
-		(at 234.95 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "237e3a53-aba0-4844-9803-c8bff34b0ae9")
-	)
-	(junction
 		(at 107.95 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "271b79a3-ef96-446f-8d38-760e90fece59")
+	)
+	(junction
+		(at 270.51 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3776c254-6f84-41ef-9344-b5f3a9693cd4")
 	)
 	(junction
 		(at 229.87 71.12)
@@ -10447,12 +10581,6 @@
 		(uuid "6752e450-435e-4a38-b4a9-14dda23ddd88")
 	)
 	(junction
-		(at 234.95 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67acdfa8-f1c2-4ccb-b6ae-e27e344d5699")
-	)
-	(junction
 		(at 210.82 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10463,6 +10591,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80495d15-3e68-4861-84c3-9fc5177d08d6")
+	)
+	(junction
+		(at 270.51 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "848ac895-45ee-47ed-8678-bf4badde613d")
 	)
 	(junction
 		(at 67.31 142.24)
@@ -10591,6 +10725,18 @@
 		(uuid "ebe89a04-26ad-42c1-97f2-509aacdbfc97")
 	)
 	(junction
+		(at 270.51 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec2af6b4-9e3e-49b0-9531-5d9dcda88c3e")
+	)
+	(junction
+		(at 270.51 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f53d1e19-c900-41c6-b123-85d971caa174")
+	)
+	(junction
 		(at 187.96 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10661,6 +10807,16 @@
 			(type default)
 		)
 		(uuid "111c69ae-67b8-412e-b1bb-14ade43539d2")
+	)
+	(wire
+		(pts
+			(xy 228.6 148.59) (xy 234.95 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14284f36-db15-47b3-a3fe-7597976d1731")
 	)
 	(wire
 		(pts
@@ -10964,6 +11120,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 120.65) (xy 270.51 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55adf7cd-daa7-43f7-b376-17a627518a59")
+	)
+	(wire
+		(pts
 			(xy 67.31 142.24) (xy 67.31 144.78)
 		)
 		(stroke
@@ -10991,16 +11157,6 @@
 			(type default)
 		)
 		(uuid "57e9ba79-5da3-4561-9ac7-63227a52928f")
-	)
-	(wire
-		(pts
-			(xy 234.95 147.32) (xy 234.95 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f391a05-9b1b-4840-adc2-adb5d2d22cd5")
 	)
 	(wire
 		(pts
@@ -11111,6 +11267,16 @@
 			(type default)
 		)
 		(uuid "740a1595-5c7a-4e28-9b6b-c6d6d915ea15")
+	)
+	(wire
+		(pts
+			(xy 270.51 123.19) (xy 270.51 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7771c0c7-adce-429f-8e8f-0bdaf11fc527")
 	)
 	(wire
 		(pts
@@ -11454,16 +11620,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 154.94) (xy 234.95 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea2bc01-6879-4b91-9dd7-89bedc990be5")
-	)
-	(wire
-		(pts
 			(xy 100.33 73.66) (xy 111.76 73.66)
 		)
 		(stroke
@@ -11521,6 +11677,16 @@
 			(type default)
 		)
 		(uuid "aa1c9943-a745-43ab-8708-64fd07eafa27")
+	)
+	(wire
+		(pts
+			(xy 270.51 118.11) (xy 270.51 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abbcc827-b1da-4cf3-9f4d-df12c353f1e7")
 	)
 	(wire
 		(pts
@@ -11774,16 +11940,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 147.32) (xy 234.95 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d523ec0f-c9e2-443a-b668-be04e9d3861c")
-	)
-	(wire
-		(pts
 			(xy 116.84 60.96) (xy 102.87 60.96)
 		)
 		(stroke
@@ -11811,6 +11967,16 @@
 			(type default)
 		)
 		(uuid "db14d2c7-a30f-4268-9e55-d6c5b9d0b11b")
+	)
+	(wire
+		(pts
+			(xy 270.51 115.57) (xy 270.51 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc179c03-02b4-4314-9c87-8b39642aa446")
 	)
 	(wire
 		(pts
@@ -11874,16 +12040,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 152.4) (xy 234.95 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb42f418-9064-4a7d-958d-51cecbe1d7bc")
-	)
-	(wire
-		(pts
 			(xy 115.57 119.38) (xy 115.57 139.7)
 		)
 		(stroke
@@ -11931,6 +12087,16 @@
 			(type default)
 		)
 		(uuid "f154d3d0-e0c0-4eb3-b871-fa22150c34b1")
+	)
+	(wire
+		(pts
+			(xy 270.51 125.73) (xy 270.51 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8f15a1d-0717-488e-888a-40e7fc115320")
 	)
 	(wire
 		(pts
@@ -12043,7 +12209,7 @@
 		(uuid "5502e3eb-359f-4039-9a92-0547a8235db4")
 	)
 	(label "SD_CD"
-		(at 228.6 147.32 0)
+		(at 228.6 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13809,6 +13975,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 234.95 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "387f340d-8dec-474d-a433-48e07d8e0382")
+		(property "Reference" "#PWR089"
+			(at 234.95 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51b966d5-7d02-4956-a285-d9bddc9a5e8e")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/3c2aa49b-c8be-4870-9888-62f9793db4a0"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "000MCLib:RC0402JR-0733RL")
 		(at 96.52 127 0)
 		(unit 1)
@@ -14033,6 +14264,136 @@
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/3c2aa49b-c8be-4870-9888-62f9793db4a0"
 					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:2201778-1")
+		(at 234.95 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4414d3c5-e5b5-4acc-8776-0da9b2d7d20a")
+		(property "Reference" "J18"
+			(at 252.73 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "2201778-1"
+			(at 252.73 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:2201778-1_TEC"
+			(at 234.95 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=501-78508&DocType=Specification+Or+Standard&DocLang=English&PartCntxt=2201778-1&DocFormat=pdf"
+			(at 224.79 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connector SD Card SMT"
+			(at 234.95 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity"
+			(at 234.95 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "2201778-1"
+			(at 234.95 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa49b2c4-bc6d-4a78-9a78-e5abdf71cb20")
+		)
+		(pin "9"
+			(uuid "9456be11-5ee4-4606-bcef-b9bb2f5029fb")
+		)
+		(pin "3"
+			(uuid "ebcb9193-e003-4558-b8d1-7dd9ec60ad98")
+		)
+		(pin "16"
+			(uuid "320c2ab9-409e-4097-9774-b90ca68066ec")
+		)
+		(pin "6"
+			(uuid "365085a2-a236-4cbb-9360-654f96b266f0")
+		)
+		(pin "15"
+			(uuid "19e02839-f9ba-45d6-bd29-8014350ccb20")
+		)
+		(pin "8"
+			(uuid "66316bc7-a9ec-41a6-946a-38fc52ecc864")
+		)
+		(pin "4"
+			(uuid "7ca308c0-4e48-465f-83b9-bf312ed0678f")
+		)
+		(pin "12"
+			(uuid "60262e78-3c5f-4b25-937a-ab988d14ae93")
+		)
+		(pin "10"
+			(uuid "ce235ee0-d9f9-4a72-b204-e1364ae5ae05")
+		)
+		(pin "11"
+			(uuid "df859da8-e571-48ee-a033-d7897a100507")
+		)
+		(pin "5"
+			(uuid "8ab45c60-1c28-428a-ac42-73aebe9fbf81")
+		)
+		(pin "7"
+			(uuid "28514e6d-5268-4a1f-ba85-e22080d4cf70")
+		)
+		(pin "13"
+			(uuid "263347ee-5de0-489d-a933-8af21b9736e4")
+		)
+		(pin "1"
+			(uuid "00ff63d1-6423-419d-949a-3a7e0a107988")
+		)
+		(pin "14"
+			(uuid "92c1d44b-a8a1-4c95-9aa0-8568dcd3dcaa")
+		)
+		(instances
+			(project ""
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/3c2aa49b-c8be-4870-9888-62f9793db4a0"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -15103,154 +15464,6 @@
 			(project ""
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/3c2aa49b-c8be-4870-9888-62f9793db4a0"
 					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000MCLib:MEM2061-01-188-00-A")
-		(at 228.6 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69dd5e4e-2758-45cf-8e82-86f84782e537")
-		(property "Reference" "J14"
-			(at 264.16 134.3024 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MEM2061-01-188-00-A"
-			(at 239.776 160.528 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000MCLib:MEM20610118800A"
-			(at 267.97 229.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gct.co/files/drawings/mem2061.pdf?v=db251ddb-1946-4f24-aa19-b8a17901bdd2"
-			(at 267.97 329.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector -  Memory Card, 8 Contacts , With Switch"
-			(at 228.6 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-			(at 267.97 829.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "MEM2061-01-188-00-A"
-			(at 267.97 929.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 228.6 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 228.6 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 228.6 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "P3"
-			(uuid "89bc2a3c-f28f-4d05-9285-b5f82732b630")
-		)
-		(pin "P2"
-			(uuid "9a0432dd-0df3-404c-898e-f97053d1eb3b")
-		)
-		(pin "P5"
-			(uuid "f7ffa6c9-badd-4665-9a07-bf8676def214")
-		)
-		(pin "P4"
-			(uuid "fe366d92-30f3-41ef-86f5-fc80cb77e0fc")
-		)
-		(pin "P7"
-			(uuid "d092d692-8819-4f48-8fa9-77ed10119131")
-		)
-		(pin "P8"
-			(uuid "8d950a3f-3fd5-4801-8d6e-ed5e22b7bc20")
-		)
-		(pin "P1"
-			(uuid "b5dac04e-8d7a-46bd-979d-858d230d8ae0")
-		)
-		(pin "P6"
-			(uuid "d37b7375-db6f-4006-8bdc-01b7a35b4de5")
-		)
-		(pin "CD1"
-			(uuid "4e03177b-bca8-4542-94e5-bc83944578ed")
-		)
-		(pin "G2"
-			(uuid "825ea711-10cd-4602-92ea-5f32e1c74bea")
-		)
-		(pin "G1"
-			(uuid "b2451848-c542-44e8-b572-a5663dbf6286")
-		)
-		(pin "CD2"
-			(uuid "e498df85-fe03-44e5-a793-155abad36587")
-		)
-		(instances
-			(project ""
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/3c2aa49b-c8be-4870-9888-62f9793db4a0"
-					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -18379,7 +18592,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 158.75 0)
+		(at 270.51 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18387,7 +18600,7 @@
 		(dnp no)
 		(uuid "ec722cae-813a-48dd-b387-a5e6a2ab4751")
 		(property "Reference" "#PWR0135"
-			(at 234.95 165.1 0)
+			(at 270.51 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18396,7 +18609,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 162.56 0)
+			(at 270.51 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18404,7 +18617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 158.75 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18413,7 +18626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 158.75 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18422,7 +18635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 158.75 0)
+			(at 270.51 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

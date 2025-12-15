@@ -8293,7 +8293,7 @@
 					(hide yes)
 				)
 			)
-			(property "Part Name" "SGM804-2.93YN5G/TR"
+			(property "Part Number" "SGM804-2.93YN5G/TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -9126,7 +9126,7 @@
 		(uuid "594941fa-1e64-447e-b1bf-e11d7a3fe896")
 	)
 	(junction
-		(at 363.22 114.3)
+		(at 363.22 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a8c601a-d52f-45e3-a148-9d9cf32e69a9")
@@ -9192,7 +9192,7 @@
 		(uuid "b0bfcd44-b3f3-474f-b237-5ca29bcbbf5a")
 	)
 	(junction
-		(at 347.98 123.19)
+		(at 347.98 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba94b7a5-e06c-4945-bfc3-fda91d5f2011")
@@ -9204,7 +9204,7 @@
 		(uuid "d003a9c7-8dfd-4c1c-a12b-bedba44bf067")
 	)
 	(junction
-		(at 363.22 133.35)
+		(at 363.22 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5f2b284-7199-42bc-a51b-681bf1ecab60")
@@ -9369,7 +9369,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 130.81) (xy 363.22 133.35)
+			(xy 363.22 132.08) (xy 363.22 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9379,7 +9379,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 123.19) (xy 347.98 133.35)
+			(xy 347.98 124.46) (xy 347.98 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9449,7 +9449,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 133.35) (xy 363.22 134.62)
+			(xy 363.22 134.62) (xy 363.22 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9479,7 +9479,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 123.19) (xy 353.06 123.19)
+			(xy 347.98 124.46) (xy 353.06 124.46)
 		)
 		(stroke
 			(width 0)
@@ -9569,7 +9569,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 114.3) (xy 374.65 114.3)
+			(xy 363.22 115.57) (xy 374.65 115.57)
 		)
 		(stroke
 			(width 0)
@@ -9759,7 +9759,7 @@
 	)
 	(wire
 		(pts
-			(xy 363.22 114.3) (xy 363.22 115.57)
+			(xy 363.22 115.57) (xy 363.22 116.84)
 		)
 		(stroke
 			(width 0)
@@ -10069,7 +10069,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 123.19) (xy 335.28 123.19)
+			(xy 332.74 124.46) (xy 335.28 124.46)
 		)
 		(stroke
 			(width 0)
@@ -10179,7 +10179,7 @@
 	)
 	(wire
 		(pts
-			(xy 360.68 133.35) (xy 363.22 133.35)
+			(xy 360.68 134.62) (xy 363.22 134.62)
 		)
 		(stroke
 			(width 0)
@@ -10438,7 +10438,7 @@
 		(uuid "f145f7bc-6a8b-4e7e-9ad0-63483d57aa07")
 	)
 	(label "CAM1_IN"
-		(at 374.65 114.3 180)
+		(at 374.65 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10471,7 +10471,7 @@
 	)
 	(global_label "CAM1_IR_CUT_GPIO"
 		(shape input)
-		(at 332.74 123.19 180)
+		(at 332.74 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10481,7 +10481,7 @@
 		)
 		(uuid "2e8174d6-b5bb-4fcc-9765-396cb21e34cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.9143 123.19 0)
+			(at 311.9143 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10581,7 +10581,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:BC817-40,215")
-		(at 360.68 123.19 0)
+		(at 360.68 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10589,7 +10589,7 @@
 		(dnp no)
 		(uuid "09599318-ed31-4f7e-8901-e190c04edde4")
 		(property "Reference" "Q9"
-			(at 356.108 118.364 0)
+			(at 356.108 119.634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10598,7 +10598,7 @@
 			)
 		)
 		(property "Value" "BC817-40,215"
-			(at 367.03 130.556 90)
+			(at 367.03 131.826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10607,7 +10607,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:BC81740215"
-			(at 374.65 224.46 0)
+			(at 374.65 225.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,7 +10617,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf"
-			(at 374.65 324.46 0)
+			(at 374.65 325.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10627,7 +10627,7 @@
 			)
 		)
 		(property "Description" "Transistor BJT 500 mA NPN"
-			(at 360.68 123.19 0)
+			(at 360.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10636,7 +10636,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 374.65 824.46 0)
+			(at 374.65 825.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10646,7 +10646,7 @@
 			)
 		)
 		(property "Part Number" "BC817-40,215"
-			(at 374.65 924.46 0)
+			(at 374.65 925.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10656,7 +10656,7 @@
 			)
 		)
 		(property "Manufacturer Name" ""
-			(at 360.68 123.19 0)
+			(at 360.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +10665,7 @@
 			)
 		)
 		(property "Part_Number" ""
-			(at 360.68 123.19 0)
+			(at 360.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10674,7 +10674,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 360.68 123.19 0)
+			(at 360.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10916,7 +10916,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 363.22 134.62 0)
+		(at 363.22 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10924,7 +10924,7 @@
 		(dnp no)
 		(uuid "17074782-b22a-404f-b962-0d303c3c9977")
 		(property "Reference" "#PWR092"
-			(at 363.22 140.97 0)
+			(at 363.22 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10933,7 +10933,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 363.22 139.446 90)
+			(at 363.22 140.716 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +10941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 134.62 0)
+			(at 363.22 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10950,7 +10950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 134.62 0)
+			(at 363.22 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,7 +10959,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 363.22 134.62 0)
+			(at 363.22 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14215,7 +14215,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 363.22 101.6 0)
+		(at 363.22 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14223,7 +14223,7 @@
 		(dnp no)
 		(uuid "7d2376e1-1661-49f8-ba39-08f987175f99")
 		(property "Reference" "#PWR091"
-			(at 363.22 105.41 0)
+			(at 363.22 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14232,7 +14232,7 @@
 			)
 		)
 		(property "Value" "LDO15A_1V8"
-			(at 363.22 97.282 0)
+			(at 363.22 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14240,7 +14240,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 363.22 101.6 0)
+			(at 363.22 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14249,7 +14249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 101.6 0)
+			(at 363.22 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14258,7 +14258,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 363.22 101.6 0)
+			(at 363.22 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15673,7 +15673,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:RC0402JR-0710KL")
-		(at 354.33 133.35 0)
+		(at 354.33 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15682,7 +15682,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2f40e46-f74b-45b3-87d6-f2d24af212f4")
 		(property "Reference" "R52"
-			(at 354.33 127 0)
+			(at 354.33 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15690,7 +15690,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 354.33 129.54 0)
+			(at 354.33 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15698,7 +15698,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:RC0402N_YAG"
-			(at 347.98 133.35 0)
+			(at 347.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15708,7 +15708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 354.33 133.35 0)
+			(at 354.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15718,7 +15718,7 @@
 			)
 		)
 		(property "Description" "Resistor 10K 1/16W CH0402"
-			(at 347.98 133.35 0)
+			(at 347.98 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15727,7 +15727,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 354.33 133.35 0)
+			(at 354.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15736,7 +15736,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0710KL"
-			(at 354.33 133.35 0)
+			(at 354.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15745,7 +15745,7 @@
 			)
 		)
 		(property "Manufacturer Name" ""
-			(at 354.33 133.35 0)
+			(at 354.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15754,7 +15754,7 @@
 			)
 		)
 		(property "Part_Number" ""
-			(at 354.33 133.35 0)
+			(at 354.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15763,7 +15763,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 354.33 133.35 0)
+			(at 354.33 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15999,7 +15999,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:RC0402JR-0710KL")
-		(at 363.22 107.95 90)
+		(at 363.22 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16008,7 +16008,7 @@
 		(fields_autoplaced yes)
 		(uuid "add10305-945f-479f-82ef-ed3e54d7abdb")
 		(property "Reference" "R54"
-			(at 356.87 107.95 0)
+			(at 356.87 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16016,7 +16016,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 359.41 107.95 0)
+			(at 359.41 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16024,7 +16024,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:RC0402N_YAG"
-			(at 363.22 114.3 0)
+			(at 363.22 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16034,7 +16034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 363.22 107.95 0)
+			(at 363.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16044,7 +16044,7 @@
 			)
 		)
 		(property "Description" "Resistor 10K 1/16W CH0402"
-			(at 363.22 114.3 0)
+			(at 363.22 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16053,7 +16053,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 363.22 107.95 0)
+			(at 363.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16062,7 +16062,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0710KL"
-			(at 363.22 107.95 0)
+			(at 363.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16071,7 +16071,7 @@
 			)
 		)
 		(property "Manufacturer Name" ""
-			(at 363.22 107.95 0)
+			(at 363.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16080,7 +16080,7 @@
 			)
 		)
 		(property "Part_Number" ""
-			(at 363.22 107.95 0)
+			(at 363.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16089,7 +16089,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 363.22 107.95 0)
+			(at 363.22 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17773,7 +17773,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:RC0402JR-0710KL")
-		(at 341.63 123.19 0)
+		(at 341.63 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17782,7 +17782,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7593028-45cc-479c-bce7-6a5c5744d51a")
 		(property "Reference" "R49"
-			(at 341.63 116.84 0)
+			(at 341.63 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17790,7 +17790,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 341.63 119.38 0)
+			(at 341.63 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17798,7 +17798,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:RC0402N_YAG"
-			(at 335.28 123.19 0)
+			(at 335.28 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17808,7 +17808,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 123.19 0)
+			(at 341.63 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17818,7 +17818,7 @@
 			)
 		)
 		(property "Description" "Resistor 10K 1/16W CH0402"
-			(at 335.28 123.19 0)
+			(at 335.28 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17827,7 +17827,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 341.63 123.19 0)
+			(at 341.63 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17836,7 +17836,7 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0710KL"
-			(at 341.63 123.19 0)
+			(at 341.63 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17845,7 +17845,7 @@
 			)
 		)
 		(property "Manufacturer Name" ""
-			(at 341.63 123.19 0)
+			(at 341.63 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17854,7 +17854,7 @@
 			)
 		)
 		(property "Part_Number" ""
-			(at 341.63 123.19 0)
+			(at 341.63 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17863,7 +17863,7 @@
 			)
 		)
 		(property "Part Name" ""
-			(at 341.63 123.19 0)
+			(at 341.63 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
