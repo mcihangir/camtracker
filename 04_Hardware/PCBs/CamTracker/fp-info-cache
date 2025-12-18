@@ -1,4 +1,4 @@
-26680643820469683
+26684175399158548
 000MCLib
 436333033816
 
@@ -6,6 +6,13 @@
 0
 5
 5
+000MCLib
+16SVPT560M
+E12
+Capacitor Polarised
+0
+2
+2
 000MCLib
 0402
 0402
@@ -290,6 +297,13 @@ TVS Diode (Uni-directional)
 DIOM7959X250N
 3.0SMCJ24A-13
 Diode
+0
+2
+2
+000MCLib
+EEHZS1H151P
+G12
+Capacitor Polarised
 0
 2
 2
