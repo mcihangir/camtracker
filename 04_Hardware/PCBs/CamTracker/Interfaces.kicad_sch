@@ -9240,10 +9240,6 @@
 		(uuid "0f1c33bb-8421-4020-9357-a95e8bce1e48")
 	)
 	(no_connect
-		(at 68.58 76.2)
-		(uuid "2d4b8fa1-9292-4bf3-a75f-429b9d858b6d")
-	)
-	(no_connect
 		(at 68.58 102.87)
 		(uuid "330940f7-aa66-48aa-8847-8eb282fc26b6")
 	)
@@ -10487,6 +10483,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO28_MCU_IN"
+		(shape input)
+		(at 68.58 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c06b251-9382-4a85-9d27-ef313be2c520")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.3819 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

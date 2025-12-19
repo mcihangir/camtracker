@@ -14786,7 +14786,7 @@
 		)
 		(uuid "cdfe706e-0da4-4956-a2e7-7b8ff5f2048e")
 	)
-	(text "DC Input\n5~16VDC"
+	(text "DC Input\n5~12VDC"
 		(exclude_from_sim no)
 		(at 33.528 206.756 0)
 		(effects
