@@ -31377,7 +31377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "HX JN1.27-2x10 TP H4.9"
+		(property "Part Number" "HX JN1.27-2x10 TP H4.9"
 			(at 0.762 16.51 0)
 			(effects
 				(font

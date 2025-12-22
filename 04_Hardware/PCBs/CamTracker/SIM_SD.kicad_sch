@@ -12392,33 +12392,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 153.67 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 153.67 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 153.67 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "888ef89a-4bfe-4fb4-8597-d9df33877905")
 		)
@@ -12510,33 +12483,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 210.82 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 210.82 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 210.82 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "bdc1dd04-6dbb-4936-829d-504f104b1e9c")
 		)
@@ -12618,33 +12564,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0751KL"
-			(at 200.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 200.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 200.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -12859,33 +12778,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 194.31 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 194.31 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 194.31 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8113416a-35e2-41bd-ad57-cbcc1c5d32be")
 		)
@@ -12973,33 +12865,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 96.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 96.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 96.52 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "fd4538fd-8d87-4cf5-9a5d-0dbbc0540770")
 		)
@@ -13079,33 +12944,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0733RL"
-			(at 96.52 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 96.52 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 96.52 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 96.52 130.81 0)
 			(effects
 				(font
@@ -13269,33 +13107,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 160.02 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 160.02 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 160.02 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "ce2941f8-aa00-41e0-8072-fb47ce1bf7ce")
 		)
@@ -13448,33 +13259,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 96.52 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 96.52 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 96.52 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "eafdbc08-e3f5-4193-880e-921d8b33958f")
 		)
@@ -13566,33 +13350,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 125.73 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 125.73 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 125.73 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4e31333c-dc9b-459b-9ce7-7a418f80312a")
 		)
@@ -13680,33 +13437,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 237.49 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 237.49 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 237.49 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -13818,33 +13548,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 204.47 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 204.47 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 204.47 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "cb998e6b-3878-4c16-b184-61b37607dafe")
 		)
@@ -13924,33 +13627,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0722RL"
-			(at 85.09 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 85.09 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 85.09 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 85.09 66.04 0)
 			(effects
 				(font
@@ -14111,33 +13787,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 96.52 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 96.52 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 96.52 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "d44f765c-1839-405c-a137-673ee7d98267")
 		)
@@ -14219,33 +13868,6 @@
 			)
 		)
 		(property "Part Number" "SC1205-01ETG"
-			(at 146.05 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 146.05 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 146.05 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 146.05 149.86 0)
 			(effects
 				(font
@@ -14471,33 +14093,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 59.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 59.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 59.69 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "67e1383f-8ace-4e85-b28c-cfe4b57a4ea2")
 		)
@@ -14577,33 +14172,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0733RL"
-			(at 96.52 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 96.52 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 96.52 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 96.52 138.43 0)
 			(effects
 				(font
@@ -14701,33 +14269,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 107.95 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 107.95 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 107.95 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4f24eb3d-ebc7-4fc7-9838-5dce65cffada")
 		)
@@ -14809,33 +14350,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0751KL"
-			(at 175.26 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 175.26 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 175.26 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 175.26 149.86 0)
 			(effects
 				(font
@@ -14934,33 +14448,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 237.49 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 237.49 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 237.49 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8fe3b47b-dbad-45d8-b8f1-953a45f51c88")
 		)
@@ -15049,33 +14536,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 218.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 218.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 218.44 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -15225,33 +14685,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0751KL"
-			(at 187.96 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 187.96 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 187.96 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 187.96 149.86 0)
 			(effects
 				(font
@@ -15415,33 +14848,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 115.57 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 115.57 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 115.57 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "11013bf6-5373-4c52-9ef3-85bdce5d5748")
 		)
@@ -15543,33 +14949,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 119.38 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 119.38 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 119.38 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fff692ce-bebc-4d94-8678-744fd4b0442f")
 		)
@@ -15658,33 +15037,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 214.63 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -15822,33 +15174,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 58.42 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 58.42 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 58.42 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "679784a6-90f4-4b88-b768-91ba7c6925ce")
 		)
@@ -15908,33 +15233,6 @@
 		)
 		(property "Description" "test point"
 			(at 55.88 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 55.88 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 55.88 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 55.88 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16158,33 +15456,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 115.57 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 115.57 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 115.57 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "575f01d5-c7fe-4dfe-99ef-0060766ec1ce")
 		)
@@ -16266,33 +15537,6 @@
 			)
 		)
 		(property "Part Number" "SC1205-01ETG"
-			(at 138.43 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 138.43 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 138.43 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 138.43 149.86 0)
 			(effects
 				(font
@@ -16389,33 +15633,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 229.87 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 229.87 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 229.87 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -16636,33 +15853,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 270.51 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 270.51 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 270.51 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4c824f15-a6ce-4e5b-9dc4-ca0b5776d5b9")
 		)
@@ -16754,33 +15944,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 222.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 222.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 222.25 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "bcff6011-4a93-4aad-9d9b-e0d6ecf85c8c")
 		)
@@ -16869,33 +16032,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 110.49 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 110.49 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 110.49 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -17051,33 +16187,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 204.47 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 204.47 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 204.47 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "cfde178c-d3d0-4001-94aa-a6bf774d3f83")
 		)
@@ -17165,33 +16274,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 204.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 204.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 204.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "8c57a99b-eab0-46dd-a88d-febc80457ac7")
 		)
@@ -17271,33 +16353,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0722RL"
-			(at 85.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 85.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 85.09 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 85.09 55.88 0)
 			(effects
 				(font
@@ -17395,33 +16450,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 123.19 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 123.19 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 123.19 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "54b9df92-b9b2-4cdf-bd01-1a652793f71d")
 		)
@@ -17511,33 +16539,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 181.61 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 181.61 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 181.61 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "dd49efb6-72c6-428f-af1a-11e7483e9fc6")
 		)
@@ -17617,33 +16618,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0733RL"
-			(at 96.52 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 96.52 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 96.52 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 96.52 134.62 0)
 			(effects
 				(font
@@ -17743,33 +16717,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 81.28 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 81.28 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 81.28 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7cebe31d-5671-4782-8e51-c0f938ce27c7")
 		)
@@ -17849,33 +16796,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-0722RL"
-			(at 85.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 85.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 85.09 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 85.09 60.96 0)
 			(effects
 				(font
@@ -17972,33 +16892,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 102.87 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 102.87 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 102.87 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -18156,33 +17049,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 73.66 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 73.66 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 73.66 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "300ad94e-4038-4636-9d4b-86bfd83b4236")
 		)
@@ -18245,33 +17111,6 @@
 		)
 		(property "Description" "test point"
 			(at 78.74 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 78.74 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 78.74 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 78.74 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18364,33 +17203,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 95.25 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 95.25 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 95.25 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -18540,33 +17352,6 @@
 			)
 		)
 		(property "Part Number" "SC1205-01ETG"
-			(at 130.81 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 130.81 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 130.81 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 130.81 149.86 0)
 			(effects
 				(font
@@ -18784,33 +17569,6 @@
 		)
 		(property "Part Number" "SC200EEMNA-E53-UGNDA"
 			(at 38.1 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 39.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 39.37 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19715,33 +18473,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-07100KL"
-			(at 67.31 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 67.31 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 67.31 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 67.31 151.13 0)
 			(effects
 				(font

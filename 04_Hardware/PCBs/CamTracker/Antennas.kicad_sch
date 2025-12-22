@@ -7791,33 +7791,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 156.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 156.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 156.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2b644038-0660-4743-8d56-6a8d3c1a3831")
 		)
@@ -7904,33 +7877,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 214.63 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 214.63 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 214.63 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -8025,33 +7971,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 207.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 207.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 207.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "dcf7e6e2-b93c-4ccc-95bc-b52b5cb9d1b5")
 		)
@@ -8140,33 +8059,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 205.74 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 205.74 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 205.74 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -8698,33 +8590,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 163.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 163.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 163.83 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "bae0cdaf-a506-46e3-94e3-87b6f81c17c7")
 		)
@@ -8804,33 +8669,6 @@
 		)
 		(property "Part Number" "SC200EEMNA-E53-UGNDA"
 			(at 46.99 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 48.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 48.26 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 48.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9745,33 +9583,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 223.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 223.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 223.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "61cddd5e-04e0-4985-b89f-d4e852be4d75")
 		)
@@ -9908,36 +9719,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 128.27 -308.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805-0-E3"
-			(at 128.27 -408.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08050000Z0EA?qs=waxnFHLl2hB4NcTp6tAQPA%3D%3D"
-			(at 128.27 -508.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
 			(at 128.27 -608.56 0)
 			(effects
@@ -9955,33 +9736,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 142.24 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -10076,33 +9830,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 189.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 189.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 189.23 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "012c384b-559e-4825-ae41-3860b735d0f7")
 		)
@@ -10182,33 +9909,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-070RL"
-			(at 198.12 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 198.12 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 198.12 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 198.12 93.98 0)
 			(effects
 				(font
@@ -10369,33 +10069,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 214.63 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 214.63 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 214.63 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4001ffd2-50e5-488f-a4c5-3bfc8a828dc8")
 		)
@@ -10482,33 +10155,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 218.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 218.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 218.44 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)

@@ -12,146 +12,6 @@
 		(comment 1 "CamTracker")
 	)
 	(lib_symbols
-		(symbol "000MCLib:22-28-4034"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -0.762 9.652 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "22-28-4034"
-				(at -6.35 7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "000MCLib:HDRV3W66P0X254_1X3_762X249X1042P"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Connector 3P 2.54mm Male Header"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Molex"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Part Number" "22-28-4034"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "22-28-4034_1_1"
-				(rectangle
-					(start -5.08 5.08)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 2.54 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -2.54 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "000MCLib:7427927291"
 			(pin_names
 				(hide yes)
@@ -933,7 +793,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part" "HX JN1.27-2x10 TP H4.9"
+			(property "Part Number" "HX JN1.27-2x10 TP H4.9"
 				(at 0.762 16.51 0)
 				(effects
 					(font
@@ -2820,6 +2680,331 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "000MCLib:RC0402JR-070RL"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0R"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "000MCLib:RC0402N_YAG"
+				(at -6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor 0R 1/16W CH0402"
+				(at -6.35 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Part Number" "RC0402JR-070RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RC0402N_YAG RC0402N_YAG-M RC0402N_YAG-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RC0402JR-070RL_1_1"
+				(polyline
+					(pts
+						(xy -3.81 0) (xy -3.175 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 1.27) (xy -1.905 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 3.175 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RC0402JR-070RL_1_2"
+				(polyline
+					(pts
+						(xy -1.27 8.255) (xy 1.27 9.525)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.715) (xy 1.27 6.985)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.175) (xy 1.27 4.445)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -1.27 3.175)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 9.525) (xy 0 10.16)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.985) (xy -1.27 8.255)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 4.445) (xy -1.27 5.715)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8538,7 +8723,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer Part" "HX JN1.27-2x10 TP H4.9"
+			(property "Part Number" "HX JN1.27-2x10 TP H4.9"
 				(at 0.762 16.51 0)
 				(effects
 					(font
@@ -9272,28 +9457,12 @@
 		(uuid "fadb3b0a-e8ee-482e-ad9f-99d759e372f9")
 	)
 	(no_connect
-		(at 233.68 63.5)
-		(uuid "0aa7c49d-8bda-44d3-944e-7bba3bfa72af")
-	)
-	(no_connect
 		(at 81.28 161.29)
 		(uuid "387b0e58-9901-46f5-8a6c-cf33a6d30523")
 	)
 	(no_connect
-		(at 233.68 176.53)
-		(uuid "4a64e3ff-bb45-4c60-ab14-9c240607b61e")
-	)
-	(no_connect
 		(at 81.28 96.52)
 		(uuid "62b32d87-1035-407a-8c69-ea6e33cb9d75")
-	)
-	(no_connect
-		(at 233.68 71.12)
-		(uuid "660b1c7d-9d06-4c33-a11f-5cb44f5df60d")
-	)
-	(no_connect
-		(at 233.68 172.72)
-		(uuid "a9b15897-c800-46d6-a869-b2e8f76a1b53")
 	)
 	(no_connect
 		(at 81.28 171.45)
@@ -9304,20 +9473,12 @@
 		(uuid "b6aa4406-4069-498d-803b-6d958cdb2bd8")
 	)
 	(no_connect
-		(at 233.68 165.1)
-		(uuid "bc9ec9a3-066a-4c2d-98d6-eac5b4c0e03c")
-	)
-	(no_connect
 		(at 81.28 86.36)
 		(uuid "bce82b45-7a0e-4b91-afa7-5e40d4e442d9")
 	)
 	(no_connect
 		(at 81.28 157.48)
 		(uuid "c3b9766b-4d08-4257-9612-d53515b1e46f")
-	)
-	(no_connect
-		(at 233.68 74.93)
-		(uuid "dbabbd2d-ca7b-431d-a1fb-b4d6ac24dc6d")
 	)
 	(no_connect
 		(at 81.28 82.55)
@@ -9396,16 +9557,6 @@
 			(type default)
 		)
 		(uuid "0c1a647c-477c-4021-ba56-df7f52165dc6")
-	)
-	(wire
-		(pts
-			(xy 222.25 212.09) (xy 233.68 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c617e9c-678f-496b-85f0-861fe93fc1b6")
 	)
 	(wire
 		(pts
@@ -9719,7 +9870,17 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 161.29) (xy 233.68 161.29)
+			(xy 257.81 172.72) (xy 246.38 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac3518b-b458-4a60-8e65-56e4443a697e")
+	)
+	(wire
+		(pts
+			(xy 237.49 161.29) (xy 233.68 161.29)
 		)
 		(stroke
 			(width 0)
@@ -9776,6 +9937,16 @@
 			(type default)
 		)
 		(uuid "604bcb0a-e431-4dd9-969f-68fe35d583a9")
+	)
+	(wire
+		(pts
+			(xy 257.81 74.93) (xy 246.38 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624d6e67-3789-4be9-a42e-d41dcd2e2e02")
 	)
 	(wire
 		(pts
@@ -9839,6 +10010,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 63.5) (xy 246.38 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f321ab6-4791-40cd-ae31-c055bfd94da0")
+	)
+	(wire
+		(pts
 			(xy 100.33 110.49) (xy 81.28 110.49)
 		)
 		(stroke
@@ -9846,16 +10027,6 @@
 			(type default)
 		)
 		(uuid "6fa0e216-7032-4373-85a0-50e5cbf7cb94")
-	)
-	(wire
-		(pts
-			(xy 222.25 214.63) (xy 233.68 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "756e22a7-2e89-4b4d-90a6-941f64bdbd0e")
 	)
 	(wire
 		(pts
@@ -9926,16 +10097,6 @@
 			(type default)
 		)
 		(uuid "87c3b7bf-b278-48c6-b2fd-c55eefa7e966")
-	)
-	(wire
-		(pts
-			(xy 222.25 114.3) (xy 233.68 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "889913ec-7024-40af-9aac-40d69fb3be69")
 	)
 	(wire
 		(pts
@@ -10099,23 +10260,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 59.69) (xy 236.22 59.69)
+			(xy 233.68 59.69) (xy 237.49 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5a54edd-8df4-4ae4-8306-660c5dda5340")
-	)
-	(wire
-		(pts
-			(xy 222.25 109.22) (xy 233.68 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b63fd217-3b61-4070-8e94-36447aedf61d")
 	)
 	(wire
 		(pts
@@ -10126,16 +10277,6 @@
 			(type default)
 		)
 		(uuid "b671c322-1af6-47e0-84a1-0fc172644a1e")
-	)
-	(wire
-		(pts
-			(xy 222.25 111.76) (xy 233.68 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7ed6c54-0323-43a1-809a-512b3cdc296e")
 	)
 	(wire
 		(pts
@@ -10199,16 +10340,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 217.17) (xy 233.68 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3268092-6c1d-4efe-8d19-5c618f356ce8")
-	)
-	(wire
-		(pts
 			(xy 182.88 203.2) (xy 190.5 203.2)
 		)
 		(stroke
@@ -10226,6 +10357,16 @@
 			(type default)
 		)
 		(uuid "d4928794-c5e8-4e60-8078-73a9f0ca674f")
+	)
+	(wire
+		(pts
+			(xy 257.81 165.1) (xy 246.38 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6a8010a-bf39-4ed6-b72d-7dd61f5d33ef")
 	)
 	(wire
 		(pts
@@ -10286,6 +10427,16 @@
 			(type default)
 		)
 		(uuid "db3b8dfc-06b1-4f41-a9c2-cd313bf0c6cf")
+	)
+	(wire
+		(pts
+			(xy 257.81 71.12) (xy 246.38 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd98e4b7-d8ed-4e64-8f9d-9c206c1db238")
 	)
 	(wire
 		(pts
@@ -10389,6 +10540,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 176.53) (xy 246.38 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef01de23-6d7c-47e4-9915-92be22552419")
+	)
+	(wire
+		(pts
 			(xy 299.72 34.29) (xy 284.48 34.29)
 		)
 		(stroke
@@ -10408,12 +10569,12 @@
 		(uuid "f42d16b7-271a-4ee3-b0a9-901ef7234ee0")
 	)
 	(label "CAM1_PWDN"
-		(at 222.25 212.09 0)
+		(at 257.81 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0249ab24-0909-4234-b7af-b3c5cd511497")
 	)
@@ -10568,12 +10729,12 @@
 		(uuid "38349edb-45e8-4151-8022-b966d1465b02")
 	)
 	(label "CAM0_RST"
-		(at 222.25 114.3 0)
+		(at 257.81 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3a96b77c-34bb-4b19-bdb4-36f4f4a03a27")
 	)
@@ -10618,12 +10779,12 @@
 		(uuid "4b152aed-e39d-4ced-a3b9-a97631451211")
 	)
 	(label "CAM0_PWDN"
-		(at 222.25 109.22 0)
+		(at 257.81 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4ba8fb72-a606-423a-8fc7-7faed61b4e34")
 	)
@@ -10668,12 +10829,12 @@
 		(uuid "55188071-c206-4117-ad64-05e2b2d6c05b")
 	)
 	(label "CAM1_RST"
-		(at 222.25 217.17 0)
+		(at 257.81 176.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "58674bf9-5f70-4480-96ab-8029c8d88070")
 	)
@@ -10828,12 +10989,12 @@
 		(uuid "7e629d27-4377-4f09-b49e-79966e255e86")
 	)
 	(label "CAM0_MCLK"
-		(at 222.25 111.76 0)
+		(at 257.81 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "800ab7d5-e21c-400c-abaa-f4791d4cfad1")
 	)
@@ -10988,12 +11149,12 @@
 		(uuid "b3d3991f-18c5-4502-b146-a5ceba51d151")
 	)
 	(label "CAM1_MCLK"
-		(at 222.25 214.63 0)
+		(at 257.81 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b6d48a3b-83f5-40a3-9731-539ad2a9710b")
 	)
@@ -11149,7 +11310,7 @@
 	)
 	(global_label "CAM1_IR_CUT_GPIO"
 		(shape input)
-		(at 236.22 161.29 0)
+		(at 237.49 161.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11159,7 +11320,7 @@
 		)
 		(uuid "0cf8cbfc-767f-4a82-9c23-fb266322ca09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.0457 161.29 0)
+			(at 258.3157 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11171,7 +11332,7 @@
 	)
 	(global_label "CAM0_IR_CUT_GPIO"
 		(shape input)
-		(at 236.22 59.69 0)
+		(at 237.49 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11181,7 +11342,7 @@
 		)
 		(uuid "34aa9cae-b9d4-4d84-8267-9dd374d1be91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.0457 59.69 0)
+			(at 258.3157 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11210,128 +11371,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000MCLib:22-28-4034")
-		(at 243.84 214.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "07500b80-adbe-426f-822a-313badd4598d")
-		(property "Reference" "J12"
-			(at 250.19 213.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22-28-4034"
-			(at 250.19 215.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000MCLib:HDRV3W66P0X254_1X3_762X249X1042P"
-			(at 260.35 309.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 409.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector 3P 2.54mm Male Header"
-			(at 243.84 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 260.35 909.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "22-28-4034"
-			(at 260.35 1009.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 243.84 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 243.84 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 243.84 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87edaaaf-4922-451b-b2c8-fafa487b14b7")
-		)
-		(pin "3"
-			(uuid "38dc9661-4066-4144-bfe1-7c09c9e4ffad")
-		)
-		(pin "2"
-			(uuid "e4a14ec8-05db-4ff8-98a7-f6e53433fd66")
-		)
-		(instances
-			(project "CamTracker"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/9ce3d427-75cb-4ba5-ba34-cfd0f074c312"
-					(reference "J12")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -11454,36 +11493,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 264.16 -361.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805-0-E3"
-			(at 264.16 -461.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08050000Z0EA?qs=waxnFHLl2hB4NcTp6tAQPA%3D%3D"
-			(at 264.16 -561.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
 			(at 264.16 -661.9 0)
 			(effects
@@ -11501,33 +11510,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 278.13 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 278.13 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 278.13 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -11612,33 +11594,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-072K2L"
-			(at 294.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 294.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 294.64 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 294.64 78.74 0)
 			(effects
 				(font
@@ -11793,6 +11748,93 @@
 		)
 	)
 	(symbol
+		(lib_id "000MCLib:RC0402JR-070RL")
+		(at 240.03 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cb9e88a-68df-4585-917f-4659ae937d77")
+		(property "Reference" "R88"
+			(at 238.506 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 241.554 163.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:RC0402N_YAG"
+			(at 233.68 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0R 1/16W CH0402"
+			(at 233.68 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 240.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-070RL"
+			(at 240.03 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd881e1b-059a-45f7-ab16-0207ee469cd3")
+		)
+		(pin "2"
+			(uuid "ac70cdb7-b358-48d7-9bd9-63e0f08f4204")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/9ce3d427-75cb-4ba5-ba34-cfd0f074c312"
+					(reference "R88")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 290.83 72.39 0)
 		(unit 1)
@@ -11917,6 +11959,93 @@
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/9ce3d427-75cb-4ba5-ba34-cfd0f074c312"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:RC0402JR-070RL")
+		(at 240.03 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1da13447-4341-4e39-8208-8cafbb92d908")
+		(property "Reference" "R110"
+			(at 238.506 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 241.554 170.942 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:RC0402N_YAG"
+			(at 233.68 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0R 1/16W CH0402"
+			(at 233.68 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 240.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-070RL"
+			(at 240.03 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b005001-fb32-4c90-897e-baf0f9f33446")
+		)
+		(pin "2"
+			(uuid "8c5d3468-6521-4d9d-88c9-35f0be1b4345")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/9ce3d427-75cb-4ba5-ba34-cfd0f074c312"
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -12126,33 +12255,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 195.58 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -12454,33 +12556,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 182.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 182.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 182.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1238b44c-6a0c-4ce8-8155-e9c4b6364766")
 		)
@@ -12615,36 +12690,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 264.16 -359.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805-0-E3"
-			(at 264.16 -459.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08050000Z0EA?qs=waxnFHLl2hB4NcTp6tAQPA%3D%3D"
-			(at 264.16 -559.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
 			(at 264.16 -659.36 0)
 			(effects
@@ -12662,33 +12707,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 278.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 278.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 278.13 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -12846,33 +12864,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 287.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 287.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 287.02 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "9606f1cd-63d1-4cd9-ae68-7003265cfebf")
 		)
@@ -12964,33 +12955,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 191.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 191.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 191.77 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "a8f0a8db-393e-483d-ba1f-e67126577e10")
 		)
@@ -13053,33 +13017,6 @@
 		)
 		(property "Description" "test point"
 			(at 81.28 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 81.28 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 81.28 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 81.28 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13153,33 +13090,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 81.28 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 81.28 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 81.28 205.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "05e58d2e-0d40-4212-8ecd-490b747d48f3")
 		)
@@ -13246,36 +13156,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 264.16 -259.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805-0-E3"
-			(at 264.16 -359.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08050000Z0EA?qs=waxnFHLl2hB4NcTp6tAQPA%3D%3D"
-			(at 264.16 -459.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
 			(at 264.16 -559.03 0)
 			(effects
@@ -13293,33 +13173,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 278.13 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 278.13 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 278.13 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -13414,33 +13267,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 190.5 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 190.5 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 190.5 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "9a477ad1-9092-4b98-add7-f82e49dff0d2")
 		)
@@ -13518,7 +13344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "HX JN1.27-2x10 TP H4.9"
+		(property "Part Number" "HX JN1.27-2x10 TP H4.9"
 			(at 226.822 144.78 0)
 			(effects
 				(font
@@ -13667,33 +13493,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 200.66 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 200.66 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 200.66 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -13905,7 +13704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "HX JN1.27-2x10 TP H4.9"
+		(property "Part Number" "HX JN1.27-2x10 TP H4.9"
 			(at 226.822 43.18 0)
 			(effects
 				(font
@@ -14190,33 +13989,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 195.58 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 195.58 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 195.58 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "5"
 			(uuid "790a3d93-f63e-47f0-9d98-ee154b37a808")
 		)
@@ -14318,33 +14090,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 195.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 195.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 195.58 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -14452,33 +14197,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 195.58 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 195.58 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 195.58 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "5"
 			(uuid "88f50c5f-47ff-4ff8-9e90-49c5e2c64d5a")
 		)
@@ -14572,6 +14290,180 @@
 		)
 	)
 	(symbol
+		(lib_id "000MCLib:RC0402JR-070RL")
+		(at 240.03 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fa4b635-aac1-470f-8cf4-ce5919ab44ae")
+		(property "Reference" "R53"
+			(at 238.506 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 241.554 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:RC0402N_YAG"
+			(at 233.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0R 1/16W CH0402"
+			(at 233.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-070RL"
+			(at 240.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8f8b360-397d-46cc-a442-cf9a1c41cb24")
+		)
+		(pin "2"
+			(uuid "6f69b832-2150-4205-8b35-ae7d29588781")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/9ce3d427-75cb-4ba5-ba34-cfd0f074c312"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:RC0402JR-070RL")
+		(at 240.03 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e11b0ec-859b-4bd1-aece-421ddcdd3a22")
+		(property "Reference" "R51"
+			(at 238.506 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 241.554 61.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:RC0402N_YAG"
+			(at 233.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0R 1/16W CH0402"
+			(at 233.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 240.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-070RL"
+			(at 240.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "108c5a74-e1b9-4ff1-9765-d1ab4d72718c")
+		)
+		(pin "2"
+			(uuid "971aa802-6243-4f2f-88be-f1c129d66f83")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/9ce3d427-75cb-4ba5-ba34-cfd0f074c312"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "000MCLib:GRM155R71A104KA01D")
 		(at 184.15 105.41 270)
 		(unit 1)
@@ -14644,33 +14536,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 184.15 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 184.15 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 184.15 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -14763,33 +14628,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 201.93 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 201.93 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 201.93 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "959d87ae-04be-4ffc-9d06-26a540eccfdd")
 		)
@@ -14800,128 +14638,6 @@
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/9ce3d427-75cb-4ba5-ba34-cfd0f074c312"
 					(reference "L4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000MCLib:22-28-4034")
-		(at 243.84 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "a2606e9f-fb4a-47f0-8f02-f55a1ca1a58b")
-		(property "Reference" "J11"
-			(at 250.19 110.4899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22-28-4034"
-			(at 250.19 113.0299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "000MCLib:HDRV3W66P0X254_1X3_762X249X1042P"
-			(at 260.35 206.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 260.35 306.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Connector 3P 2.54mm Male Header"
-			(at 243.84 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Molex"
-			(at 260.35 806.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "22-28-4034"
-			(at 260.35 906.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 243.84 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 243.84 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 243.84 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b274a647-f17a-4dc9-8193-8beabfd6baea")
-		)
-		(pin "3"
-			(uuid "aa99ba81-2f51-46f0-90d7-4c6c58ce8beb")
-		)
-		(pin "2"
-			(uuid "d80a5fea-8f0b-48dd-9b2f-6f6b1e8a99c8")
-		)
-		(instances
-			(project "CamTracker"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/9ce3d427-75cb-4ba5-ba34-cfd0f074c312"
-					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -15004,33 +14720,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 195.58 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 195.58 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 195.58 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "5"
 			(uuid "4ff22083-5e6d-45e8-ad10-39337a1874da")
 		)
@@ -15053,6 +14742,93 @@
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/9ce3d427-75cb-4ba5-ba34-cfd0f074c312"
 					(reference "FL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:RC0402JR-070RL")
+		(at 240.03 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b235bfc3-1c30-4248-87c0-ff9471b836ac")
+		(property "Reference" "R111"
+			(at 238.506 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 241.554 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:RC0402N_YAG"
+			(at 233.68 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0R 1/16W CH0402"
+			(at 233.68 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 240.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-070RL"
+			(at 240.03 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9bf0342-d31e-41f3-99db-f8745c4cffda")
+		)
+		(pin "2"
+			(uuid "5be951d5-6712-4eae-9293-96d87c59e810")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/9ce3d427-75cb-4ba5-ba34-cfd0f074c312"
+					(reference "R111")
 					(unit 1)
 				)
 			)
@@ -15327,33 +15103,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 294.64 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 294.64 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 294.64 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "d042a028-32c5-46f5-ae33-f34ff08ab71a")
 		)
@@ -15443,33 +15192,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 195.58 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 195.58 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 195.58 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -15564,33 +15286,6 @@
 			)
 		)
 		(property "Part Number" "LTPL-C0676WPGB"
-			(at 274.32 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 274.32 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 274.32 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 274.32 110.49 0)
 			(effects
 				(font
@@ -15736,36 +15431,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 264.16 -256.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW0805-0-E3"
-			(at 264.16 -356.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW08050000Z0EA?qs=waxnFHLl2hB4NcTp6tAQPA%3D%3D"
-			(at 264.16 -456.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Vishay"
 			(at 264.16 -556.49 0)
 			(effects
@@ -15783,33 +15448,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 278.13 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 278.13 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 278.13 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -15882,8 +15520,65 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 81.28 201.93 90)
+		(pin "1"
+			(uuid "3948fc11-f8f5-40dd-b5cb-49be399f0369")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/9ce3d427-75cb-4ba5-ba34-cfd0f074c312"
+					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:RC0402JR-070RL")
+		(at 240.03 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7b6d03c-54a9-468f-859e-3490708122c1")
+		(property "Reference" "R86"
+			(at 238.506 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 241.554 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:RC0402N_YAG"
+			(at 233.68 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0R 1/16W CH0402"
+			(at 233.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15891,8 +15586,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part_Number" ""
-			(at 81.28 201.93 90)
+		(property "Manufacturer" "YAGEO"
+			(at 240.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15900,8 +15595,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Name" ""
-			(at 81.28 201.93 90)
+		(property "Part Number" "RC0402JR-070RL"
+			(at 240.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15910,12 +15605,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3948fc11-f8f5-40dd-b5cb-49be399f0369")
+			(uuid "f78ea446-aad5-42ce-a2c7-e21747a260df")
+		)
+		(pin "2"
+			(uuid "1f88724d-60db-4c8a-ad46-1e485145adb2")
 		)
 		(instances
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/9ce3d427-75cb-4ba5-ba34-cfd0f074c312"
-					(reference "TP27")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -16048,33 +15746,6 @@
 			)
 		)
 		(property "Part Number" "SC200EEMNA-E53-UGNDA"
-			(at 64.77 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 64.77 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 64.77 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 64.77 121.92 0)
 			(effects
 				(font
@@ -16980,33 +16651,6 @@
 			)
 		)
 		(property "Part Number" "RC0402JR-072K2L"
-			(at 287.02 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Name" ""
-			(at 287.02 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 287.02 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
 			(at 287.02 181.61 0)
 			(effects
 				(font

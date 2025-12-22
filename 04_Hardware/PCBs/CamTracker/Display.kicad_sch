@@ -5372,33 +5372,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Name" ""
-			(at 44.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part_Number" ""
-			(at 44.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Name" ""
-			(at 44.45 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "57"
 			(uuid "58d59135-6030-4351-b6ea-29e21faf4c5a")
 		)
