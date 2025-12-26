@@ -15130,12 +15130,6 @@
 		(uuid "3610e3a5-0d0d-45d9-8602-d92f7ea4edba")
 	)
 	(junction
-		(at 298.45 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "388c0d93-f3a2-49f9-b979-69a812420ceb")
-	)
-	(junction
 		(at 146.05 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15964,6 +15958,12 @@
 		(uuid "f10ba059-75d9-4cd6-951f-d29bff0e0ddb")
 	)
 	(junction
+		(at 298.45 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2be98d4-5c54-475b-8835-f99aae55ab6b")
+	)
+	(junction
 		(at 330.2 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15998,6 +15998,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f93396a5-bf7f-4153-ad26-6b31e7e32e46")
+	)
+	(junction
+		(at 298.45 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb504465-2335-4da3-a4fc-168f56826f34")
 	)
 	(junction
 		(at 208.28 60.96)
@@ -16158,6 +16164,16 @@
 			(type default)
 		)
 		(uuid "04725b36-8e52-4239-8866-6e3f3a8632ab")
+	)
+	(wire
+		(pts
+			(xy 297.18 53.34) (xy 298.45 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "048ac4be-7954-47fc-b507-459a5aede640")
 	)
 	(wire
 		(pts
@@ -17201,6 +17217,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 53.34) (xy 284.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b348662-e3b2-4ffb-bbb0-199cbffd442f")
+	)
+	(wire
+		(pts
 			(xy 26.67 33.02) (xy 26.67 35.56)
 		)
 		(stroke
@@ -17418,16 +17444,6 @@
 			(type default)
 		)
 		(uuid "5a21ae85-322f-4009-8c47-d993dcb69dae")
-	)
-	(wire
-		(pts
-			(xy 298.45 66.04) (xy 312.42 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a2baccd-2d5c-4ff9-9156-978f41ee695e")
 	)
 	(wire
 		(pts
@@ -18701,6 +18717,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 115.57) (xy 298.45 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2cafd95-5536-4556-9b47-5bdf30dc0a7e")
+	)
+	(wire
+		(pts
 			(xy 26.67 96.52) (xy 26.67 99.06)
 		)
 		(stroke
@@ -18888,6 +18914,16 @@
 			(type default)
 		)
 		(uuid "bdd75803-e498-4ba0-889a-6e0f586af339")
+	)
+	(wire
+		(pts
+			(xy 283.21 115.57) (xy 284.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be7c2bdc-fef7-4070-bd21-3bf5b5579145")
 	)
 	(wire
 		(pts
@@ -19788,6 +19824,50 @@
 			(justify left bottom)
 		)
 		(uuid "e49628de-dc0f-4f44-b499-12c11708378a")
+	)
+	(global_label "NVMe_USB_EN"
+		(shape input)
+		(at 283.21 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d2563d8-108d-48e4-b60a-ec9d4292061a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.041 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NVMe_USB_EN"
+		(shape input)
+		(at 283.21 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "732f4c83-3db1-47af-a42e-c7b84c271ec6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.041 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "CAM0_EN"
 		(shape input)
@@ -21059,6 +21139,93 @@
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/04241d8f-a156-493c-8d6a-b2fd4005e365"
 					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:RC0402JR-070RL")
+		(at 290.83 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ba0a08c-8176-4605-8a51-a0dad27deee8")
+		(property "Reference" "R18"
+			(at 291.338 50.292 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 291.084 56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:RC0402N_YAG"
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0R 1/16W CH0402"
+			(at 284.48 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 290.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-070RL"
+			(at 290.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aa5d9fb-12b7-4d38-a345-32d1b67c54dd")
+		)
+		(pin "2"
+			(uuid "08fe4696-4437-4009-a34c-6032939dc959")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/04241d8f-a156-493c-8d6a-b2fd4005e365"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -23831,6 +23998,94 @@
 			(project ""
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/04241d8f-a156-493c-8d6a-b2fd4005e365"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:RC0402JR-0710KL")
+		(at 298.45 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fd67950-e30c-4697-84f8-ea9f9347c12f")
+		(property "Reference" "R105"
+			(at 301.244 37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 301.244 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:RC0402N_YAG"
+			(at 298.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 298.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 10K 1/16W CH0402"
+			(at 298.45 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 298.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-0710KL"
+			(at 298.45 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "40faaf61-4bca-4778-bb4d-5fcc6e93e2ad")
+		)
+		(pin "1"
+			(uuid "08e62333-d659-4f20-8d4f-27b58abc5c68")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/04241d8f-a156-493c-8d6a-b2fd4005e365"
+					(reference "R105")
 					(unit 1)
 				)
 			)
@@ -28556,6 +28811,93 @@
 		)
 	)
 	(symbol
+		(lib_id "000MCLib:RC0402JR-070RL")
+		(at 290.83 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7883413-8ad2-496f-b079-5ed2ef502f15")
+		(property "Reference" "R106"
+			(at 291.338 112.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 291.084 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "000MCLib:RC0402N_YAG"
+			(at 284.48 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0R 1/16W CH0402"
+			(at 284.48 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 290.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402JR-070RL"
+			(at 290.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89d3fe20-f264-4c8e-842a-dc686fc7f98c")
+		)
+		(pin "2"
+			(uuid "293a0786-5092-447e-8697-942a58f366d0")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/04241d8f-a156-493c-8d6a-b2fd4005e365"
+					(reference "R106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 279.4 41.91 0)
 		(unit 1)
@@ -29700,10 +30042,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d5d6c60e-4cdb-448b-a82c-29bfcf3cee2d")
 		(property "Reference" "R12"
-			(at 193.04 163.83 0)
+			(at 193.04 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29711,7 +30052,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 193.04 166.37 0)
+			(at 192.786 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30010,10 +30351,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d9a4e8d6-8e3f-493a-8be8-8c99ac58051b")
 		(property "Reference" "R13"
-			(at 285.75 163.83 0)
+			(at 286.258 167.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30021,7 +30361,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 285.75 166.37 0)
+			(at 286.258 172.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32118,94 +32458,6 @@
 		)
 	)
 	(symbol
-		(lib_id "000MCLib:RC0402JR-0710KL")
-		(at 298.45 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f431cfbb-b694-409d-854a-58d74fb256b3")
-		(property "Reference" "R106"
-			(at 301.244 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 301.244 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "000MCLib:RC0402N_YAG"
-			(at 298.45 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 298.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 10K 1/16W CH0402"
-			(at 298.45 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 298.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402JR-0710KL"
-			(at 298.45 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c7be6233-f66d-4b09-9d08-17c4b9ff3530")
-		)
-		(pin "1"
-			(uuid "c7814279-75b7-4aeb-b29f-2b416dfc8190")
-		)
-		(instances
-			(project "CamTracker"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/04241d8f-a156-493c-8d6a-b2fd4005e365"
-					(reference "R106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 365.76 184.15 0)
 		(unit 1)
@@ -32266,98 +32518,6 @@
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/04241d8f-a156-493c-8d6a-b2fd4005e365"
 					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000MCLib:CRCW08050000Z0EA")
-		(at 298.45 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa1a2e52-ce7a-4d88-ae2c-8f0da1d0b7da")
-		(property "Reference" "R105"
-			(at 300.99 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 300.99 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "000MCLib:RESC2012X50N"
-			(at 394.64 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
-			(at 494.64 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 0R 1/8watt 0805"
-			(at 298.45 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Vishay"
-			(at 994.64 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "CRCW08050000Z0EA"
-			(at 1094.64 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6700e5d7-d423-4fe5-9c69-32c6254e5d26")
-		)
-		(pin "2"
-			(uuid "41e5a8fb-779e-469b-a762-0e6f37a529a2")
-		)
-		(instances
-			(project "CamTracker"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/04241d8f-a156-493c-8d6a-b2fd4005e365"
-					(reference "R105")
 					(unit 1)
 				)
 			)

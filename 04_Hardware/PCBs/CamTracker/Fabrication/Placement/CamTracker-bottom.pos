@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-12-24T12:36:05+0300 ###
+### Footprint positions - created on 2025-12-26T12:30:21+0300 ###
 ### Printed by KiCad version 9.0.6
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -100,7 +100,6 @@ L2        1uH_4.2A           LSEUC3225HKT1R0M                    91.4700   -79.0
 L10       1uH_2.2A           IND_WE-LQS_2512_WRE                104.1100   -87.0300  -90.0000  bottom
 LED4      SML-P11VTT86R      SMLP11VTT86R                       177.7100   -84.5600   90.0000  bottom
 LED5      SML-P11VTT86R      SMLP11VTT86R                       171.4300   -92.1400   90.0000  bottom
-Q7        BC817-40,215       BC81740215                         188.8700  -103.6300  180.0000  bottom
 Q8        BC817-40,215       BC81740215                         139.6700  -104.1900   90.0000  bottom
 Q10       BC817-40,215       BC81740215                         130.8200   -87.4700    0.0000  bottom
 Q11       BC817-40,215       BC81740215                         135.2250   -86.8300    0.0000  bottom
@@ -114,7 +113,7 @@ R14       0R                 RESC2012X50N                        82.9125   -63.1
 R15       10K                RC0402N_YAG                         78.2125   -65.5900  -90.0000  bottom
 R16       0R                 RESC2012X50N                        90.8100   -69.9400    0.0000  bottom
 R17       10K                RC0402N_YAG                         94.6275   -67.3400   90.0000  bottom
-R18       10K                RC0402N_YAG                        186.3000  -103.3812  -90.0000  bottom
+R18       0R                 RC0402N_YAG                         89.9200   -83.3000  180.0000  bottom
 R19       0R                 RESC2012X50N                       192.2200   -95.6300  -90.0000  bottom
 R21       10K                RC0402N_YAG                         85.9800  -103.6800  180.0000  bottom
 R22       100K               RC0402N_YAG                         91.3000   -98.1300   90.0000  bottom
@@ -142,8 +141,8 @@ R97       10K                RC0402N_YAG                        128.5700   -87.4
 R98       10K                RC0402N_YAG                        137.4600   -86.6200  -90.0000  bottom
 R99       4K7                RC0402N_YAG                        133.2800   -83.7200    0.0000  bottom
 R104      56K                RC0402N_YAG                        101.2200   -98.3000    0.0000  bottom
-R105      0R                 RESC2012X50N                        91.0400   -82.2700  180.0000  bottom
-R106      10K                RC0402N_YAG                         88.4900   -81.9800   90.0000  bottom
+R105      10K                RC0402N_YAG                         91.0400   -82.2700  180.0000  bottom
+R106      0R                 RC0402N_YAG                        106.2200   -90.0200   90.0000  bottom
 R107      200K               RC0402N_YAG                         94.7500   -75.4000   90.0000  bottom
 R108      44K2               RC0402N_YAG                         95.9300   -74.2300   90.0000  bottom
 R109      5K1                RC0402N_YAG                        101.2488   -96.9900    0.0000  bottom

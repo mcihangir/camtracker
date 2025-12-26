@@ -10386,6 +10386,12 @@
 		(uuid "1c870c6f-1fac-4c0f-a1a3-b91d64f5bbb5")
 	)
 	(junction
+		(at 336.55 207.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "267411c2-0fb6-4a6e-be49-3a54ecf2f8d5")
+	)
+	(junction
 		(at 278.13 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10396,12 +10402,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29cca4d5-d546-4850-aea6-ef616036be95")
-	)
-	(junction
-		(at 330.2 207.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d57a4f6-21df-436f-bb90-18a5f4863543")
 	)
 	(junction
 		(at 245.11 193.04)
@@ -10783,6 +10783,16 @@
 	)
 	(wire
 		(pts
+			(xy 336.55 207.01) (xy 340.36 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299c9e85-3cf5-402d-807b-a4172827890c")
+	)
+	(wire
+		(pts
 			(xy 256.54 96.52) (xy 276.86 96.52)
 		)
 		(stroke
@@ -10833,7 +10843,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 224.79) (xy 330.2 228.6)
+			(xy 336.55 224.79) (xy 336.55 228.6)
 		)
 		(stroke
 			(width 0)
@@ -10850,16 +10860,6 @@
 			(type default)
 		)
 		(uuid "38d56016-ff6c-4550-80f4-e84e9c441b16")
-	)
-	(wire
-		(pts
-			(xy 330.2 205.74) (xy 330.2 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e36b98e-d0ba-43e5-a68c-87e71c330e61")
 	)
 	(wire
 		(pts
@@ -11303,16 +11303,6 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 190.5) (xy 330.2 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ef07aac-d807-4d5c-827e-a12c05edc321")
-	)
-	(wire
-		(pts
 			(xy 146.05 234.95) (xy 133.35 234.95)
 		)
 		(stroke
@@ -11363,7 +11353,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 207.01) (xy 330.2 209.55)
+			(xy 336.55 207.01) (xy 336.55 209.55)
 		)
 		(stroke
 			(width 0)
@@ -11583,13 +11573,13 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 217.17) (xy 320.04 217.17)
+			(xy 304.8 217.17) (xy 313.69 217.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ced48e0a-ee52-4b2d-82c2-7d40af47ad03")
+		(uuid "cde80c25-c6c7-4c02-a066-592b33f3ea19")
 	)
 	(wire
 		(pts
@@ -11660,16 +11650,6 @@
 			(type default)
 		)
 		(uuid "da59c87f-940d-4a8d-9c92-77db7e4be1e4")
-	)
-	(wire
-		(pts
-			(xy 330.2 207.01) (xy 334.01 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e504236e-96aa-4fcc-9b42-716282797132")
 	)
 	(wire
 		(pts
@@ -11800,16 +11780,6 @@
 			(type default)
 		)
 		(uuid "fd9f25ba-656a-4f20-bb12-6941bb45984d")
-	)
-	(wire
-		(pts
-			(xy 322.58 207.01) (xy 330.2 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe8410a7-8ddb-4182-849f-73988c001e1a")
 	)
 	(wire
 		(pts
@@ -12093,7 +12063,7 @@
 		(uuid "b10e4eb1-ff26-4771-ab44-3f694541eb14")
 	)
 	(label "USB_SW"
-		(at 311.15 217.17 0)
+		(at 304.8 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12142,9 +12112,9 @@
 		)
 		(uuid "fb96674f-8789-41eb-9973-b72b2e28e21c")
 	)
-	(global_label "NVMe_USB_Detect"
+	(global_label "NVMe_USB_EN"
 		(shape input)
-		(at 334.01 207.01 0)
+		(at 340.36 207.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12154,7 +12124,7 @@
 		)
 		(uuid "031267e8-56db-4bfc-87e6-8488f004bf17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 353.6867 207.01 0)
+			(at 356.529 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12425,6 +12395,163 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:TestPoint")
+		(at 278.13 208.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00dc536e-0892-4901-91e3-f37e120d2671")
+		(property "Reference" "TP51"
+			(at 275.59 202.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 279.146 207.518 90)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 283.21 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 283.21 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 278.13 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed3ca72c-f31e-4dfa-b9ea-9278cfb2406b")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/c25a207c-b8a9-4784-b66a-330177f8d9f9"
+					(reference "TP51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "000MCLib:CRCW08050000Z0EA")
+		(at 320.04 217.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dfcd2d0-55be-4c20-ac3d-5009967d4a93")
+		(property "Reference" "R112"
+			(at 316.738 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 318.77 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "000MCLib:RESC2012X50N"
+			(at 306.07 120.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 306.07 20.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor 0R 1/8watt 0805"
+			(at 320.04 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 306.07 -479.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW08050000Z0EA"
+			(at 306.07 -579.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b8f029e-a3e8-438b-b45c-465f2c9bd6fa")
+		)
+		(pin "2"
+			(uuid "72d842db-494c-4073-96f1-db96839059b7")
+		)
+		(instances
+			(project "CamTracker"
+				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/c25a207c-b8a9-4784-b66a-330177f8d9f9"
+					(reference "R112")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -12813,71 +12940,6 @@
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/c25a207c-b8a9-4784-b66a-330177f8d9f9"
 					(reference "#PWR0181")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 330.2 190.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cf241ca-7913-470e-9a9d-44bdce8bde78")
-		(property "Reference" "#PWR0114"
-			(at 330.2 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "NVMe_3V3"
-			(at 329.946 186.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 330.2 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d757a770-73fa-44cf-8e65-737bd2775f81")
-		)
-		(instances
-			(project "CamTracker"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/c25a207c-b8a9-4784-b66a-330177f8d9f9"
-					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -15981,7 +16043,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:BC817-40,215")
-		(at 327.66 217.17 0)
+		(at 334.01 217.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15989,7 +16051,7 @@
 		(dnp no)
 		(uuid "76ecf302-c7fa-4638-9d70-82b2db908b1f")
 		(property "Reference" "Q7"
-			(at 323.088 212.344 0)
+			(at 329.438 212.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15998,7 +16060,7 @@
 			)
 		)
 		(property "Value" "BC817-40,215"
-			(at 334.01 224.536 90)
+			(at 340.36 224.536 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16007,7 +16069,7 @@
 			)
 		)
 		(property "Footprint" "000MCLib:BC81740215"
-			(at 341.63 318.44 0)
+			(at 347.98 318.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16017,7 +16079,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC817_SER.pdf"
-			(at 341.63 418.44 0)
+			(at 347.98 418.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16027,7 +16089,7 @@
 			)
 		)
 		(property "Description" "Transistor BJT 500 mA NPN"
-			(at 327.66 217.17 0)
+			(at 334.01 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16036,7 +16098,7 @@
 			)
 		)
 		(property "Manufacturer" "Nexperia"
-			(at 341.63 918.44 0)
+			(at 347.98 918.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16046,7 +16108,7 @@
 			)
 		)
 		(property "Part Number" "BC817-40,215"
-			(at 341.63 1018.44 0)
+			(at 347.98 1018.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17565,7 +17627,7 @@
 	)
 	(symbol
 		(lib_id "000MCLib:TestPoint")
-		(at 322.58 207.01 0)
+		(at 336.55 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17573,7 +17635,7 @@
 		(dnp no)
 		(uuid "cc9ae6ff-1779-41d8-be46-5a64ac6c59be")
 		(property "Reference" "TP50"
-			(at 320.04 201.676 0)
+			(at 334.01 201.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17582,7 +17644,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 323.596 206.248 90)
+			(at 337.566 206.248 90)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -17591,7 +17653,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 327.66 207.01 0)
+			(at 341.63 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17600,7 +17662,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 327.66 207.01 0)
+			(at 341.63 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17609,7 +17671,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 322.58 207.01 0)
+			(at 336.55 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17631,7 +17693,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 330.2 228.6 0)
+		(at 336.55 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17639,7 +17701,7 @@
 		(dnp no)
 		(uuid "ce0c566e-a824-449e-a9db-45f91196bd42")
 		(property "Reference" "#PWR0112"
-			(at 330.2 234.95 0)
+			(at 336.55 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17648,7 +17710,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 330.2 233.426 90)
+			(at 336.55 233.426 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17656,7 +17718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 228.6 0)
+			(at 336.55 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17665,7 +17727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 228.6 0)
+			(at 336.55 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17674,7 +17736,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 330.2 228.6 0)
+			(at 336.55 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18363,96 +18425,6 @@
 			(project "CamTracker"
 				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/c25a207c-b8a9-4784-b66a-330177f8d9f9"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "000MCLib:RC0402JR-0710KL")
-		(at 330.2 199.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd4449aa-5389-48e0-b816-bd1b06145450")
-		(property "Reference" "R18"
-			(at 332.74 198.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 332.74 200.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "000MCLib:RC0402N_YAG"
-			(at 330.2 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor 10K 1/16W CH0402"
-			(at 330.2 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 330.2 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402JR-0710KL"
-			(at 330.2 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73ed2abb-3d87-4deb-a90d-c68363ff859c")
-		)
-		(pin "2"
-			(uuid "cf043b6b-0755-44e0-8bda-879666bb2077")
-		)
-		(instances
-			(project "CamTracker"
-				(path "/38605b01-fdd9-41de-8a8b-501279ee3e8a/c25a207c-b8a9-4784-b66a-330177f8d9f9"
-					(reference "R18")
 					(unit 1)
 				)
 			)
